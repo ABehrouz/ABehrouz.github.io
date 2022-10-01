@@ -39,6 +39,10 @@ I am an M.Sc. student in computer science at the University of British Columbia,
 <col style="width: 576px">
 </colgroup>
 <thead>
+   <tr>
+    <th class="tg-wk8r">Aug 2021</th>
+    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design"</span> is accepted to Advances in Interpretable Machine Learning Workshop in CIKM 2022.</th>
+  </tr>
   <tr>
     <th class="tg-wk8r">Aug 2021</th>
     <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> is accepted to CIKM 2022.</th>
@@ -55,3 +59,6 @@ I am an M.Sc. student in computer science at the University of British Columbia,
   </tr>
 </tbody>
 </table>
+
+   
+   
