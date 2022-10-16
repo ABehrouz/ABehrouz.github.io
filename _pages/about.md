@@ -39,6 +39,10 @@ I am an M.Sc. student in computer science at the University of British Columbia,
 <col style="width: 576px">
 </colgroup>
 <thead>
+  <tr>
+    <th class="tg-wk8r">Oct 2022</th>
+    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"FirmTruss Community Search in Multilayer Networks"</span> is accepted to VLDB 2023.</th>
+  </tr>
    <tr>
     <th class="tg-wk8r">Sep 2022</th>
     <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design"</span> is accepted to Advances in Interpretable Machine Learning Workshop in CIKM 2022.</th>
