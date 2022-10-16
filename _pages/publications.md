@@ -27,7 +27,7 @@ Conference on Information and Knowledge Management, CIKM 2022.
 
 [4] **FirmTruss Community Search in Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2205.00742.pdf) [[Code]](https://github.com/joint-em/FTCS)  
 **<span style="color:#0059b3;">A. Behrouz\*</span>**, F. Hashemi\*, L. V.S. Lakshmanan.  
-Preprint arXiv:2205.00742 (Under review at VLDB 2023).  
+International Conference on Very Large Databases, VLDB 2023.  
 
 [3] **FirmCore Decomposition of Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2208.11200.pdf) [[Code]](https://github.com/joint-em/FirmCore)  
 F. Hashemi*, **<span style="color:#0059b3;">A. Behrouz\*</span>**, L. V.S. Lakshmanan.  
