@@ -41,6 +41,10 @@ I am an M.Sc. student in computer science at the University of British Columbia,
 <thead>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
+    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> has been selected as a best paper candidate in CIKM 2022.</th>
+  </tr>
+  <tr>
+    <th class="tg-wk8r">Oct 2022</th>
     <th class="tg-oe15">Our paper <span style="color:#0059b3;">"FirmTruss Community Search in Multilayer Networks"</span> is accepted to VLDB 2023.</th>
   </tr>
    <tr>
