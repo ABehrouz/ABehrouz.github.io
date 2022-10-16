@@ -22,7 +22,7 @@ International Conference on Very Large Databases, VLDB 2023.
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. Seltzer.  
 Under review at NeurIPS 2022 Temporal Graph Learning Workshop.  
 
-[5] **Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design**.  
+[5] **Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design**.  [[Paper]](https://arxiv.org/pdf/2210.06825.pdf)
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. L\'ecuyer, C. Rudin, M. Seltzer.  
 Advances in Interpretable Machine Learning Workshop in CIKM 2022.  
 
