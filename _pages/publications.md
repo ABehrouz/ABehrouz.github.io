@@ -26,7 +26,7 @@ NeurIPS 2022 Temporal Graph Learning Workshop.
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. L\'ecuyer, C. Rudin, M. Seltzer.  
 Advances in Interpretable Machine Learning Workshop in CIKM 2022.  
 
-[4] **CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Networks**.  
+[4] **CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Networks**. [[Paper]](https://arxiv.org/pdf/2210.08811.pdf)  
 **<span style="color:#0059b3;">A. Behrouz\*</span>**, F. Hashemi\*.  
 Conference on Information and Knowledge Management, CIKM 2022.  
 
