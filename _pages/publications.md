@@ -28,7 +28,7 @@ Advances in Interpretable Machine Learning Workshop in CIKM 2022.
 
 [4] **CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Networks**. [[Paper]](https://arxiv.org/pdf/2210.08811.pdf)  
 **<span style="color:#0059b3;">A. Behrouz\*</span>**, F. Hashemi\*.  
-Conference on Information and Knowledge Management, CIKM 2022.  
+Conference on Information and Knowledge Management, CIKM 2022.  [**<span style="color:#0059b3;">Best Paper Honorable Mention Award</span>**]
 
 
 [3] **FirmCore Decomposition of Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2208.11200.pdf) [[Code]](https://github.com/joint-em/FirmCore)  
