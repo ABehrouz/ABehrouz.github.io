@@ -20,7 +20,7 @@ International Conference on Very Large Databases, VLDB 2023.
 # 2022
 [6] **Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction**.  
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. Seltzer.  
-NeurIPS 2022 Temporal Graph Learning Workshop.  
+NeurIPS 2022 Temporal Graph Learning Workshop.  [**<span style="color:#0059b3;">Spotlight Talk</span>**]
 
 [5] **Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design**.  [[Paper]](https://arxiv.org/pdf/2210.06825.pdf)  
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. L\'ecuyer, C. Rudin, M. Seltzer.  
