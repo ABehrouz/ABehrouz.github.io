@@ -41,7 +41,7 @@ I am an M.Sc. student in computer science at the University of British Columbia,
 <thead>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction"</span> is accepted to NeurIPS 2022 Temporal Graph Learning Workshop.</th>
+    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction"</span> is accepted to NeurIPS 2022 Temporal Graph Learning Workshop for spotlight talk.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
