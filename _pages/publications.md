@@ -18,7 +18,7 @@ author_profile: true
 International Conference on Very Large Databases, VLDB 2023.  
 
 # 2022
-[6] **Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction**. [[Paper]](https://arxiv.org/pdf/2211.08378.pdf) [[Code]](https://github.com/ubc-systopia/ANOMULY)    
+[6] **Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction**. [[Paper]](https://openreview.net/pdf?id=UDGZDfwmay) [[Code]](https://github.com/ubc-systopia/ANOMULY)    
 **<span style="color:#0059b3;">A. Behrouz</span>**, M. Seltzer.  
 NeurIPS 2022 Temporal Graph Learning Workshop.  [**<span style="color:#0059b3;">Spotlight Talk</span>**]
 
