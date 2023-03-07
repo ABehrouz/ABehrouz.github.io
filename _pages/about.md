@@ -41,7 +41,7 @@ I am an M.Sc. student in computer science at the University of British Columbia,
 <thead>
   <tr>
     <th class="tg-wk8r">Mar 2023</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-TGN: Community Search via Temporal Graph Neural Networks"</span> is accepted to TheWebConf 2023 Temporal Web Analytics Workshop for oral presentation.</th>
+    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-TGN: Community Search via Temporal Graph Neural Networks"</span> is accepted to TheWebConf (WWW) 2023 Temporal Web Analytics Workshop for oral presentation.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
