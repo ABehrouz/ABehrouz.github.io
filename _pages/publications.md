@@ -13,6 +13,10 @@ author_profile: true
 \* Equal contribution
 
 # 2023
+[8] **CS-TGN: Community Search via Temporal Graph Neural Networks**. [[Paper]]() [[Code]]()  
+F. Hashemi\*, **<span style="color:#0059b3;">A. Behrouz\*</span>**, M. Rezaei Hajidehi\*.  
+Companion Proceedings of the Web Conference, WWW 2023.   
+
 [7] **FirmTruss Community Search in Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2205.00742.pdf) [[Code]](https://github.com/joint-em/FTCS)  
 **<span style="color:#0059b3;">A. Behrouz\*</span>**, F. Hashemi\*, L. V.S. Lakshmanan.  
 International Conference on Very Large Databases, VLDB 2023.  
