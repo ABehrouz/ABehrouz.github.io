@@ -17,7 +17,7 @@ Neural Information Processing Systems, NeurIPS 2023.
 
 [10] **ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
 <u>A. Behrouz</u>, M. Seltzer.  
-Machine Learning for Healthcare, MLHC 2023.  [**<span style="color:#800000;">Best Paper Award</span>**]
+ICML Interpretable Machine Learning in Healthcare Workshop, IMLH 2023.  [**<span style="color:#800000;">Best Paper Award</span>**]
 
 [9] **Anomaly Detection in Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/64d1ad83c1f19449af10a8a9/1691463046694/ID160_Research+Paper_2023.pdf) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
 <u>A. Behrouz</u>, M. Seltzer.  
