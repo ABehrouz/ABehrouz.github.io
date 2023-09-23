@@ -38,7 +38,7 @@ My research interests generally lie in the areas of network science, graph repre
 .tg .tg-oe15{background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
 .tg .tg-wk8r{background-color:#ffffff;border-color:#ffffff;text-align:center;vertical-align:top}
 </style>
-<table class="tg1" style="undefined;table-layout: fixed; width: 748px">
+<table class="tg" style="undefined;table-layout: fixed; width: 748px">
 <colgroup>
 <col style="width: 172px">
 <col style="width: 576px">
