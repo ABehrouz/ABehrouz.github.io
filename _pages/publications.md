@@ -5,16 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-  You can also find my papers on <u><a href="https://scholar.google.com/citations?user=UbwVuqIAAAAJ&hl=en">Google Scholar</a>.</u>
+You can also find my papers on <a href="https://scholar.google.com/citations?user=UbwVuqIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.semanticscholar.org/author/Ali-Behrouz/46211294">Semantic Scholar</a>.
 
 
 {% include base_path %}
 
-\* Equal contribution
-
 # 2023
 [11] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)   
-<u>A. Behrouz*</u>, F. Hashemi\*, S. Sadeghian\*, M. Seltzer.  
+<u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
 
 [10] **ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
@@ -26,11 +24,11 @@ Machine Learning for Healthcare, MLHC 2023.  [**<span style="color:#800000;">Bes
 Machine Learning for Healthcare, MLHC 2023.  [**<span style="color:#800000;">Oral Talk</span>**]
 
 [8] **CS-TGN: Community Search via Temporal Graph Neural Networks**. [[Paper]]() [[Code]]()  
-F. Hashemi\*, <u>A. Behrouz*</u>, M. Rezaei Hajidehi\*.  
+F. Hashemi, <u>A. Behrouz</u>, M. Rezaei Hajidehi.  
 Companion Proceedings of the Web Conference, WWW 2023.   
 
 [7] **FirmTruss Community Search in Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2205.00742.pdf) [[Code]](https://github.com/joint-em/FTCS)  
-<u>A. Behrouz*</u>, F. Hashemi\*, L. V.S. Lakshmanan.  
+<u>A. Behrouz</u>, F. Hashemi, L. V.S. Lakshmanan.  
 International Conference on Very Large Databases, VLDB 2023.  
 
 # 2022
@@ -43,12 +41,12 @@ NeurIPS 2022 Temporal Graph Learning Workshop.  [**<span style="color:#800000;">
 Advances in Interpretable Machine Learning Workshop in CIKM 2022.  
 
 [4] **CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Networks**. [[Paper]](https://arxiv.org/pdf/2210.08811.pdf)  
-<u>A. Behrouz*</u>, F. Hashemi\*.  
+<u>A. Behrouz</u>, F. Hashemi.  
 Conference on Information and Knowledge Management, CIKM 2022.  [**<span style="color:#800000;">Best Paper Honorable Mention Award</span>**]
 
 
 [3] **FirmCore Decomposition of Multilayer Networks**. [[Paper]](https://arxiv.org/pdf/2208.11200.pdf) [[Code]](https://github.com/joint-em/FirmCore)  
-F. Hashemi*, <u>Ali Behrouz*</u>, L. V.S. Lakshmanan.  
+F. Hashemi, <u>Ali Behrouz</u>, L. V.S. Lakshmanan.  
 The ACM Web Conference, WWW 2022.  
 
 
