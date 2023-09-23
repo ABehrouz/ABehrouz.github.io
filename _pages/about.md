@@ -52,7 +52,7 @@ My research interests generally lie in the areas of network science, graph repre
   </tr>
     <tr>
     <td class="tg-wk8r">WWW 2022</td>
-    <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. (<span style="color:#800000;">Oral</span>) <br> Farnoosh Hashemi\*, Ali Behrouz\*, Laks V.S. Lakshmanan  <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
+    <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. (<span style="color:#800000;">Oral</span>) <br> Farnoosh Hashemi*, Ali Behrouz*, Laks V.S. Lakshmanan  <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
   </tr>
 </tbody>
 </table>
