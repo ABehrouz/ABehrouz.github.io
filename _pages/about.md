@@ -43,7 +43,15 @@ My research interests generally lie in the areas of network science, graph repre
 <tbody>
    <tr>
     <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </td>
+    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </th>
+  </tr>
+  <tr>
+    <th class="tg-wk8r">CIKM 2022</th>
+    <th class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks.  <br>Ali Behrouz, Farnoosh Hashemi (<span style="color:#800000;">Best Paper Honorable Mention Award</span>) <br> [<a href="https://arxiv.org/pdf/2210.08811.pdf">PDF</a>] </th>
+  </tr>
+  <tr>
+    <th class="tg-wk8r">NeurIPS TGL Workshop 2022</th>
+    <th class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Oral</span>) <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </th>
   </tr>
 </tbody>
 </table>
