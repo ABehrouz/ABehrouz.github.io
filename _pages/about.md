@@ -18,9 +18,9 @@ My research interests generally lie in the areas of network science, graph repre
 
 
 # Selected Publications
-~
-~
 
+<br>
+<br>
 
 <html>
 <body>
