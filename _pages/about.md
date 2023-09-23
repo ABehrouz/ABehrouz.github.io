@@ -13,7 +13,39 @@ I am a Ph.D. student at Cornell University. Previously, I completed my M.Sc. at 
 My research interests generally lie in the areas of network science, graph representation learning, and computational neuroscience. 
 </p>
   
-    
+
+
+# Selected Publications
+<html>
+<body>
+ <hr>
+ <body>
+ <html>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-oe15{background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-wk8r{background-color:#ffffff;border-color:#ffffff;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 748px">
+<colgroup>
+<col style="width: 172px">
+<col style="width: 576px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-wk8r">NeurIPS 2023</th>
+    <th class="tg-oe15"> CAT-Walk: Inductive Hypergraph Learning via Set Walks. 
+    Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer </th>
+  </tr>
+</tbody>
+</table>
+
+
   
   
   
