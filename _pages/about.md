@@ -42,9 +42,14 @@ My research interests generally lie in the areas of network science, graph repre
     <th class="tg-oe15"> CAT-Walk: Inductive Hypergraph Learning via Set Walks. <br>
     Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer </th>
   </tr>
+   <tr>
+    <th class="tg-wk8r">ICML IMLH Workshop 2023</th>
+    <th class="tg-oe15"> ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <br>
+    Ali Behrouz, Margo Seltzer ()</th>
+  </tr>
 </tbody>
 </table>
-
+</html>
 
   
   
