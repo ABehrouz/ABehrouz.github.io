@@ -43,7 +43,7 @@ My research interests generally lie in the areas of network science, graph repre
 <tbody>
    <tr>
     <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] 
+    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </td>
   </tr>
 </tbody>
 </table>
