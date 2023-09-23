@@ -47,7 +47,7 @@ I am a Ph.D. student at Cornell University. Before joining Cornell, I completed 
   </tr>
   <tr>
     <td class="tg-wk8r">NeurIPS TGL Workshop 2022</td>
-    <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction. (<span style="color:#800000;">Oral</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </td>
+    <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction. (<span style="color:#800000;">Best Paper Award Candidate</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </td>
   </tr>
     <tr>
     <td class="tg-wk8r">WWW 2022</td>
