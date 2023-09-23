@@ -175,7 +175,8 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+   background: $link-color;
+  // background: $background-color;
 
   a {
     display: block;
@@ -374,7 +375,7 @@
   color: $link-color;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: $link-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
@@ -382,7 +383,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $link-color;
+    background: #fff;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
