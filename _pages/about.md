@@ -58,19 +58,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 </table>
 
 
-
-
-<br>
-  
-<br>
-
-<br>
-  
-<br>
-
-  
-<br>
-
 <br>
   
 <br>
@@ -99,18 +86,9 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
   
 <br>
-
-<br>
   
 <br>
 
-
-  
-<br>
-
-<br>
-  
-<br>
 
 # Service
 ---
