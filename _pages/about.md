@@ -21,7 +21,6 @@ My research interests generally lie in the areas of network science, graph repre
  <hr>
  <body>
  <html>
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -39,7 +38,7 @@ My research interests generally lie in the areas of network science, graph repre
 <thead>
   <tr>
     <th class="tg-wk8r">NeurIPS 2023</th>
-    <th class="tg-oe15"> CAT-Walk: Inductive Hypergraph Learning via Set Walks. 
+    <th class="tg-oe15"> CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br>
     Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer </th>
   </tr>
    <tr>
@@ -51,7 +50,7 @@ My research interests generally lie in the areas of network science, graph repre
 </table>
   <br><br>
 </html>
-
+</html>
   
   
   
@@ -115,5 +114,5 @@ My research interests generally lie in the areas of network science, graph repre
 </tbody>
 </table>
 </html>
-   
+</html>
    
