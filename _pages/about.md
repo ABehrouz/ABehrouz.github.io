@@ -60,8 +60,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
 <br>
   
-<br>
-
 
 
 # News
@@ -99,8 +97,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
   
 <br>
   
-<br>
-
 
 # Service
 ---
