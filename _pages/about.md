@@ -52,8 +52,20 @@ My research interests generally lie in the areas of network science, graph repre
 </table>
   <br><br>
 </html>
-</html>
   
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
 # News
@@ -115,6 +127,5 @@ My research interests generally lie in the areas of network science, graph repre
   </tr>
 </tbody>
 </table>
-</html>
 </html>
    
