@@ -5,9 +5,7 @@ main:
 
   - title: "Awards"
     url: /awards/    
-
-#   - title: "Teaching"
-#     url: /teaching/    
+  
   - title: "Datasets"
   - url: /datasets/
   
