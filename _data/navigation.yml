@@ -4,10 +4,12 @@ main:
     url: /publications/
 
   - title: "Awards"
-    url: /awards/    
-  
+    url: /awards/ 
+    
   - title: "Datasets"
-  - url: /datasets/
+    url: /datasets/ 
+    
+
   
   - title: "CV"
     url: https://drive.google.com/file/d/15enlFs66eKlhDNSkdHLo31wF8Bx-qhDs/view?usp=sharing
