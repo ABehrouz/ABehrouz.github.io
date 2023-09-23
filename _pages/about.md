@@ -79,33 +79,33 @@ My research interests generally lie in the areas of network science, graph repre
 <thead>
   <tr>
     <th class="tg-wk8r">Mar 2023</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-TGN: Community Search via Temporal Graph Neural Networks"</span> is accepted to TheWebConf (WWW) 2023 Temporal Web Analytics Workshop for oral presentation.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"CS-TGN: Community Search via Temporal Graph Neural Networks"</span> is accepted to TheWebConf (WWW) 2023 Temporal Web Analytics Workshop for oral presentation.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction"</span> is accepted to NeurIPS 2022 Temporal Graph Learning Workshop for spotlight talk.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction"</span> is accepted to NeurIPS 2022 Temporal Graph Learning Workshop for spotlight talk.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> has been selected as a best paper candidate in CIKM 2022.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> has been selected as a best paper candidate in CIKM 2022.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Oct 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"FirmTruss Community Search in Multilayer Networks"</span> is accepted to VLDB 2023.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"FirmTruss Community Search in Multilayer Networks"</span> is accepted to VLDB 2023.</th>
   </tr>
    <tr>
     <th class="tg-wk8r">Sep 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design"</span> is accepted to Advances in Interpretable Machine Learning Workshop in CIKM 2022.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"Fast Optimization of Weighted Sparse Decision Trees for use in Optimal Treatment Regimes and Optimal Policy Design"</span> is accepted to Advances in Interpretable Machine Learning Workshop in CIKM 2022.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Aug 2022</th>
-    <th class="tg-oe15">Our paper <span style="color:#0059b3;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> is accepted to CIKM 2022.</th>
+    <th class="tg-oe15">Our paper <span style="color:#800000;">"CS-MLGCN: Multiplex Graph Convolutional Neural Network for Community Search in Multiplex Network"</span> is accepted to CIKM 2022.</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-wk8r">Jan 2022</td>
-    <td class="tg-oe15">Our paper <span style="color:#0059b3;">"FirmCore Decomposition of Multilayer Networks"</span> is accepted to The ACM Web Conference (WWW) 2022. (acceptance rate 17.7%)</td>
+    <td class="tg-oe15">Our paper <span style="color:#800000;">"FirmCore Decomposition of Multilayer Networks"</span> is accepted to The ACM Web Conference (WWW) 2022. (acceptance rate 17.7%)</td>
   </tr>
   <tr>
     <td class="tg-wk8r">Sep 2020</td>
