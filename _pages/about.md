@@ -17,6 +17,7 @@ My research interests generally lie in the areas of network science, graph repre
 
 
 
+
 # Selected Publications
 
 ---
@@ -30,10 +31,6 @@ My research interests generally lie in the areas of network science, graph repre
 </style>
 
 <table class="tg">
-<colgroup>
-<col style="width: 172px">
-<col style="width: 576px">
-</colgroup>
 <thead>
   <tr>
     <th class="tg-wk8r">NeurIPS 2023</th>
@@ -42,20 +39,20 @@ My research interests generally lie in the areas of network science, graph repre
 </thead>
 <tbody>
    <tr>
-    <th class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <th class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </th>
+    <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
+    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </td>
   </tr>
   <tr>
-    <th class="tg-wk8r">CIKM 2022</th>
-    <th class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks.  <br>Ali Behrouz, Farnoosh Hashemi (<span style="color:#800000;">Best Paper Honorable Mention Award</span>) <br> [<a href="https://arxiv.org/pdf/2210.08811.pdf">PDF</a>] </th>
+    <td class="tg-wk8r">CIKM 2022</td>
+    <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks.  <br>Ali Behrouz, Farnoosh Hashemi (<span style="color:#800000;">Best Paper Honorable Mention Award</span>) <br> [<a href="https://arxiv.org/pdf/2210.08811.pdf">PDF</a>] </td>
   </tr>
   <tr>
-    <th class="tg-wk8r">NeurIPS TGL Workshop 2022</th>
-    <th class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Oral</span>) <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </th>
+    <td class="tg-wk8r">NeurIPS TGL Workshop 2022</td>
+    <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Oral</span>) <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </td>
   </tr>
     <tr>
-    <td class="tg-wk8r">WWW 2022</th>
-    <td class="tg-oe15">FirmCore decomposition of multilayer networks.  <br>Ali Behrouz, Farnoosh Hashemi, Laks V.S. Lakshmanan (<span style="color:#800000;">Oral</span>) <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
+    <td class="tg-wk8r">WWW 2022</td>
+    <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks.  <br>Ali Behrouz, Farnoosh Hashemi, Laks V.S. Lakshmanan (<span style="color:#800000;">Oral</span>) <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
   </tr>
 </tbody>
 </table>
@@ -65,10 +62,6 @@ My research interests generally lie in the areas of network science, graph repre
 # News
 
 <table class="tg">
-<colgroup>
-<col style="width: 172px">
-<col style="width: 576px">
-</colgroup>
 <thead>
   <tr>
     <th class="tg-wk8r">Mar 2023</th>
@@ -79,4 +72,14 @@ My research interests generally lie in the areas of network science, graph repre
   <!-- Add all other rows here using <td> within <tbody> -->
 </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
 
