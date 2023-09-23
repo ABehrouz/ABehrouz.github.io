@@ -74,12 +74,16 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
     <th class="tg-oe15">Our paper "CAT-Walk: Inductive Hypergraph Learning via Set Walks" has been accepted to NeurIPS 2023.</th>
   </tr>
   <tr>
+    <th class="tg-wk8r">Aug 2023</th>
+    <th class="tg-oe15">I completed my M.Sc. with the thesis "Anomaly Detection in Multiplex Networks: from Human Brain Activity to Financial Networks". Next, I will start my Ph.D. at Cornell University. </th>
+  </tr>
+  <tr>
     <th class="tg-wk8r">July 2023</th>
     <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">June 2023</th>
-    <th class="tg-oe15">Our paper "Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" has been accepted to Machine Learning for Healthcare Conference, MLHC 2023.</th>
+    <th class="tg-oe15">Our paper "Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" has been accepted to the Machine Learning for Healthcare Conference, MLHC 2023.</th>
   </tr>
 </thead>
 <tbody>
