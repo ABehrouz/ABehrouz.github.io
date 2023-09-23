@@ -12,7 +12,9 @@ redirect_from:
 I am a Ph.D. student at Cornell University. Previously, I completed my M.Sc. at the University of British Columbia and my B.Sc. at the Sharif University of Technology.
 My research interests generally lie in the areas of network science, graph representation learning, and computational neuroscience. 
 </p>
-  
+<br>
+<br>
+
 
 
 # Selected Publications
