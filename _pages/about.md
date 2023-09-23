@@ -37,13 +37,13 @@ My research interests generally lie in the areas of network science, graph repre
 <thead>
   <tr>
     <th class="tg-wk8r">NeurIPS 2023</th>
-    <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br>Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> [[PDF](https://arxiv.org/pdf/2306.11147.pdf)] [[GitHub](https://github.com/ubc-systopia/CATWalk)] </th>
+    <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br>Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> [<a href="https://arxiv.org/pdf/2306.11147.pdf">PDF</a>] [<a href="https://github.com/ubc-systopia/CATWalk">GitHub</a>] </th>
   </tr>
 </thead>
 <tbody>
    <tr>
     <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [[PDF](https://openreview.net/pdf?id=t4H8acYudJ)] [[GitHub](https://github.com/ubc-systopia/ADMIRE)] </td>
+    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] 
   </tr>
 </tbody>
 </table>
