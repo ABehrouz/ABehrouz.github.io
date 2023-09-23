@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="justify">
-I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received a B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. My research interests generally lie in the areas of network science, graph representation learning, and computational neuroscience. 
+I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received a B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. My research interests generally lie in the areas of network science, graph representation learning, ML in healthcare, and computational neuroscience. 
 </p>
 <br>
 <br>
