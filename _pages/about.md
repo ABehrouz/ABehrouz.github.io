@@ -20,7 +20,6 @@ My research interests generally lie in the areas of network science, graph repre
 # Selected Publications
 
 
-```
 <html>
 <body>
  <hr>
@@ -58,8 +57,9 @@ My research interests generally lie in the areas of network science, graph repre
 </tbody>
 </table>
   <br><br>
+</thead>
 </html>
-```
+
 
 
 
@@ -76,7 +76,6 @@ My research interests generally lie in the areas of network science, graph repre
   
 # News
 
-```
 <html>
 <body>
  <hr>
@@ -136,4 +135,4 @@ My research interests generally lie in the areas of network science, graph repre
 </tbody>
 </table>
 </html>
-   ```
+
