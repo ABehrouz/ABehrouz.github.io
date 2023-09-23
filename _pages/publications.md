@@ -11,7 +11,7 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 {% include base_path %}
 
 # 2023
-[11] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)   
+[11] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
 <u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
 
