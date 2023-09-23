@@ -12,6 +12,7 @@ redirect_from:
 I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received a B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. My research interests generally lie in the areas of network science, graph representation learning, ML in healthcare, and computational neuroscience. 
 </p>
 <br>
+  
 <br>
 
 
@@ -56,9 +57,28 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 </tbody>
 </table>
 
----
+
+
+
+<br>
+  
+<br>
+
+<br>
+  
+<br>
+
+  
+<br>
+
+<br>
+  
+<br>
+
+
 
 # News
+---
 
 <table class="tg">
 <thead>
@@ -77,7 +97,28 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
 
 
+  
+<br>
 
+<br>
+  
+<br>
+
+
+  
+<br>
+
+<br>
+  
+<br>
+
+# Service
+---
+**Conference/Workshop Reviewer**: ICLR 2023, NeurIPS 2023, NeurIPS TGL Workshop 2023, KDD 2022.
+  
+**Journal Reviewer**: TMLR 2023.
+  
+**Other**: Mentor in <a href="https://talariasummerinstitute.org/about-talaria">Talaria Summer Institute</a>.
 
 
 
