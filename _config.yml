@@ -179,6 +179,10 @@ collections:
   awards:
     output: true
     permalink: /:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
+  
 
 
 # Defaults
