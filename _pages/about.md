@@ -37,7 +37,7 @@ My research interests generally lie in the areas of network science, graph repre
 <thead>
   <tr>
     <th class="tg-wk8r">NeurIPS 2023</th>
-    <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br>Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> [] </th>
+    <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br>Ali Behrouz, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> [[PDF](https://arxiv.org/pdf/2306.11147.pdf)] [[GitHub](https://github.com/ubc-systopia/CATWalk)] </th>
   </tr>
 </thead>
 <tbody>
