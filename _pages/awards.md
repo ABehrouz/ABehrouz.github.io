@@ -10,7 +10,7 @@ author_profile: true
 
 ---
 
-For the complete list please see [My CV](https://drive.google.com/file/d/15enlFs66eKlhDNSkdHLo31wF8Bx-qhDs/view).
+\*<font size="2"> For the complete list please see <a href="https://drive.google.com/file/d/15enlFs66eKlhDNSkdHLo31wF8Bx-qhDs/view">My CV</a>.</font>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
