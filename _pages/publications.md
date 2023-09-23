@@ -19,7 +19,7 @@ Neural Information Processing Systems, NeurIPS 2023.
 <u>A. Behrouz</u>, M. Seltzer.  
 ICML Interpretable Machine Learning in Healthcare Workshop, IMLH 2023.  [**<span style="color:#800000;">Best Paper Award</span>**]
 
-[9] **Anomaly Detection in Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/64d1ad83c1f19449af10a8a9/1691463046694/ID160_Research+Paper_2023.pdf) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
+[9] **Anomaly Detection in Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/64d1ad83c1f19449af10a8a9/1691463046694/ID160_Research+Paper_2023.pdf) [[Code]](https://github.com/ubc-systopia/ADMIRE)  [[Video]](https://www.youtube.com/watch?v=qhGEwBJiTgM)    
 <u>A. Behrouz</u>, M. Seltzer.  
 Machine Learning for Healthcare, MLHC 2023.  [**<span style="color:#800000;">Oral Talk</span>**]
 
