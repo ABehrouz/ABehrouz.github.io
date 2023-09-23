@@ -70,8 +70,16 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-wk8r">Mar 2023</th>
-    <th class="tg-oe15">Our paper "CS-TGN: Community Search via Temporal Graph Neural Networks" is accepted to TheWebConf (WWW) 2023 Temporal Web Analytics Workshop for oral presentation.</th>
+    <th class="tg-wk8r">Sep 2023</th>
+    <th class="tg-oe15">Our paper "CAT-Walk: Inductive Hypergraph Learning via Set Walks" has been accepted to NeurIPS 2023.</th>
+  </tr>
+  <tr>
+    <th class="tg-wk8r">July 2023</th>
+    <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
+  </tr>
+  <tr>
+    <th class="tg-wk8r">June 2023</th>
+    <th class="tg-oe15">Our paper "Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" has been accepted to Machine Learning for Healthcare Conference, MLHC 2023.</th>
   </tr>
 </thead>
 <tbody>
