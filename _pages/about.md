@@ -42,8 +42,8 @@ My research interests generally lie in the areas of network science, graph repre
 </thead>
 <tbody>
    <tr>
-    <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </th>
+    <th class="tg-wk8r">ICML IMLH Workshop 2023</td>
+    <th class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks.<br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Best Paper Award</span>) <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </th>
   </tr>
   <tr>
     <th class="tg-wk8r">CIKM 2022</th>
@@ -54,8 +54,8 @@ My research interests generally lie in the areas of network science, graph repre
     <th class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br>Ali Behrouz, Margo Seltzer (<span style="color:#800000;">Oral</span>) <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </th>
   </tr>
     <tr>
-    <th class="tg-wk8r">WWW 2022</th>
-    <th class="tg-oe15">FirmCore decomposition of multilayer networks.  <br>Ali Behrouz, Farnoosh Hashemi, Laks V.S. Lakshmanan (<span style="color:#800000;">Oral</span>) <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
+    <td class="tg-wk8r">WWW 2022</th>
+    <td class="tg-oe15">FirmCore decomposition of multilayer networks.  <br>Ali Behrouz, Farnoosh Hashemi, Laks V.S. Lakshmanan (<span style="color:#800000;">Oral</span>) <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
   </tr>
 </tbody>
 </table>
