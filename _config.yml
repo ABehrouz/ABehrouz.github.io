@@ -176,7 +176,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  projects:
+  awards:
     output: true
     permalink: /:collection/:path/
 
