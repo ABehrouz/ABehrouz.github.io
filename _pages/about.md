@@ -72,6 +72,10 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
     <th class="tg-oe15">Our paper "CAT-Walk: Inductive Hypergraph Learning via Set Walks" has been accepted to NeurIPS 2023.</th>
   </tr>
   <tr>
+    <th class="tg-wk8r">Sep 2023</th>
+    <th class="tg-oe15">Our paper "Generalized Densest Subgraph in Multiplex Networks" has been accepted to the Conference on Complex Networks 2023.</th>
+  </tr>
+  <tr>
     <th class="tg-wk8r">Aug 2023</th>
     <th class="tg-oe15">I completed my M.Sc. with the thesis "Anomaly Detection in Multiplex Networks: from Human Brain Activity to Financial Networks". Next, I will start my Ph.D. at Cornell University. </th>
   </tr>
