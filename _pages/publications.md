@@ -11,9 +11,13 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 {% include base_path %}
 
 # 2023
-[11] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
+[12] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
 <u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
+
+[11] **Generalized Densest Subgraph in Multiplex Networks**. [[Paper]]() [[Code]](https://github.com/joint-em/FirmCore)   
+<u>A. Behrouz</u>, F. Hashemi.  
+Conference on Complex Networks & Their Applications, CNA 2023. [**<span style="color:#800000;">Oral</span>**]
 
 [10] **ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks**. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
 <u>A. Behrouz</u>, M. Seltzer.  
