@@ -25,7 +25,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 <br>
   
 <br>
-<br>
   
 # Selected Publications
 
