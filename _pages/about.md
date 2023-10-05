@@ -17,12 +17,15 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
 
 <details>
-  <summary>➤ <span style="color:#800000;">Test</span> </summary>
+  <summary> <span style="color:#800000;">Test</span> </summary>
   TEST.
 </details>
 
-
-
+<br>
+  
+<br>
+<br>
+  
 # Selected Publications
 
 ---
