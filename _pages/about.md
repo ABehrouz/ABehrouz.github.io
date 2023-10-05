@@ -13,12 +13,13 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 </p>
 <br>
   
-<br>
+<span style="color:#800000;">I am always open to collaboration!</span>
 
 
+    
 <details>
-  <summary> <span style="color:#800000;">Test</span> </summary>
-  TEST.
+  <summary> <span style="color:#800000;">Collaboration with Master/Bachelor Students!</span> </summary>
+  I would be happy to collaborate with Master/Bachelor students who would like to work on graph learning, ML in healthcare, and/or network science. I also have some projects in these areas that we can discuss.
 </details>
 
 <br>
