@@ -11,6 +11,8 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 {% include base_path %}
 
 # 2023
+---
+
 [12] **CAT-Walk: Inductive Hypergraph Learning via Set Walks**. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
 <u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
@@ -35,7 +37,11 @@ Companion Proceedings of the Web Conference, WWW 2023.
 <u>A. Behrouz</u>, F. Hashemi, L. V.S. Lakshmanan.  
 International Conference on Very Large Databases, VLDB 2023.  
 
+<br>
+
 # 2022
+---
+
 [6] **Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction**. [[Paper]](https://openreview.net/pdf?id=UDGZDfwmay) [[Code]](https://github.com/ubc-systopia/ANOMULY)    
 <u>A. Behrouz</u>, M. Seltzer.  
 NeurIPS 2022 Temporal Graph Learning Workshop.  [**<span style="color:#800000;">Spotlight Talk</span>**]
@@ -53,14 +59,21 @@ Conference on Information and Knowledge Management, CIKM 2022.  [**<span style="
 F. Hashemi, <u>Ali Behrouz</u>, L. V.S. Lakshmanan.  
 The ACM Web Conference, WWW 2022.  
 
+<br>
+
 
 # 2020
+---
+
 [2] **Green Space and Happiness of Developed Countries**. [[Paper]](https://www.researchgate.net/profile/Donghee-Wohn/publication/340812176_Green_Space_and_Happiness_of_Developed_Countries/links/5ef9754945851550507b0766/Green-Space-and-Happiness-of-Developed-Countries.pdf)  
 F Hashemi, <u>Ali Behrouz</u>, J. Yang, D.Y. Wohn, M. Cha.  
 IEEE International Conference on Big Data and Smart Computing 2020. 
 
+<br>
 
 # 2018
+---
+
 [1] **Secure Credit Reporting on the Blockchain**. [[Paper]](https://arxiv.org/pdf/1805.09104.pdf)  
 A. K. Goharshady, <u>Ali Behrouz</u>, K. Chatterjee.  
 IEEE Blockchain 2018.
