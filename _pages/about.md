@@ -53,7 +53,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         <a href="https://github.com/ubc-systopia/ADMIRE">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
-        <br> <img src="https://github.com/ABehrouz/ABehrouz.github.io/blob/master/star.png" alt="PDF" style="width: auto; height: 40px;"/> <span style="color:#800000;">Best Paper Award</span>
+        <br> <img src="https://github.com/ABehrouz/ABehrouz.github.io/blob/master/star.png" alt="PDF" style="width: auto; height: 30px;"/> <span style="color:#800000;">Best Paper Award</span>
       </td>
     </tr>
     <tr>
