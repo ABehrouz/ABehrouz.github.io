@@ -36,7 +36,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
     <th class="tg-wk8r">NeurIPS 2023</th>
     <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br><u>Ali Behrouz</u>, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> 
       <a href="https://arxiv.org/pdf/2306.11147.pdf">
-        <img src="URL_OF_YOUR_PDF_BADGE_IMAGE" alt="PDF" style="width: auto; height: 20px;"/>
+        <img src="https://img.shields.io/badge/paper-yellowgreen" alt="PDF" style="width: auto; height: 20px;"/>
       </a>
       [<a href="https://github.com/ubc-systopia/CATWalk">GitHub</a>] </th>
   </tr>
