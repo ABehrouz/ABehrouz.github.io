@@ -36,7 +36,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
     <th class="tg-wk8r">NeurIPS 2023</th>
     <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br><u>Ali Behrouz</u>, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer <br> 
       <a href="https://arxiv.org/pdf/2306.11147.pdf">
-        <img src="https://img.shields.io/badge/PDF-80000" alt="PDF" style="width: auto; height: 20px;"/>
+        <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
       </a>
       <a href="https://github.com/ubc-systopia/CATWalk">
         <img src="https://img.shields.io/badge/GitHub-004f80" alt="PDF" style="width: auto; height: 20px;"/>
@@ -46,19 +46,40 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 <tbody>
    <tr>
     <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. (<span style="color:#800000;">Best Paper Award</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> [<a href="https://openreview.net/pdf?id=t4H8acYudJ">PDF</a>] [<a href="https://github.com/ubc-systopia/ADMIRE">GitHub</a>] </td>
+    <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. (<span style="color:#800000;">Best Paper Award</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> 
+      <a href="https://openreview.net/pdf?id=t4H8acYudJ">
+        <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
+      <a href="https://github.com/ubc-systopia/ADMIRE">
+        <img src="https://img.shields.io/badge/GitHub-004f80" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
   </tr>
   <tr>
     <td class="tg-wk8r">CIKM 2022</td>
-    <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks. (<span style="color:#800000;">Best Paper Honorable Mention Award</span>) <br><u>Ali Behrouz</u>, Farnoosh Hashemi <br> [<a href="https://arxiv.org/pdf/2210.08811.pdf">PDF</a>] </td>
+    <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks. (<span style="color:#800000;">Best Paper Honorable Mention Award</span>) <br><u>Ali Behrouz</u>, Farnoosh Hashemi <br> 
+      <a href="https://arxiv.org/pdf/2210.08811.pdf">
+        <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
   </tr>
   <tr>
     <td class="tg-wk8r">NeurIPS TGL Workshop 2022</td>
-    <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction. (<span style="color:#800000;">Best Paper Award Candidate</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> [<a href="https://openreview.net/pdf?id=UDGZDfwmay">PDF</a>] [<a href="https://github.com/ubc-systopia/Anomuly">GitHub</a>] </td>
+    <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction. (<span style="color:#800000;">Best Paper Award Candidate</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> 
+      <a href="https://openreview.net/pdf?id=UDGZDfwmay">
+        <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
+      <a href="https://github.com/ubc-systopia/Anomuly">
+        <img src="https://img.shields.io/badge/GitHub-004f80" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
   </tr>
     <tr>
     <td class="tg-wk8r">WWW 2022</td>
-    <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. (<span style="color:#800000;">Oral</span>) <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <br> [<a href="https://arxiv.org/pdf/2208.11200.pdf">PDF</a>] [<a href="https://github.com/joint-em/FirmCore">GitHub</a>] </td>
+    <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. (<span style="color:#800000;">Oral</span>) <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <br> 
+      <a href="https://arxiv.org/pdf/2208.11200.pdf>
+        <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
+      <a href="https://github.com/joint-em/FirmCore">
+        <img src="https://img.shields.io/badge/GitHub-004f80" alt="PDF" style="width: auto; height: 20px;"/>
+      </a>
   </tr>
 </tbody>
 </table>
@@ -118,9 +139,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
 
 <br>
-<br>
-
-<br>
+---
     
 <details>
   <summary> <span style="color:#800000;">Collaboration with Master/Bachelor Students!</span> </summary>
