@@ -14,11 +14,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
   
 <u>I am always open to collaboration!</u>
 
-    
-<details>
-  <summary> <span style="color:#800000;">Collaboration with Master/Bachelor Students!</span> </summary>
-  I would be happy to collaborate with Master/Bachelor students who would like to work on graph learning, ML in healthcare, and/or network science. I also have some projects in these areas that we can discuss.
-</details>
 
 <br>
   
@@ -114,6 +109,18 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 **Journal Reviewer**: TMLR 2023.
   
 **Other**: Mentor in <a href="https://talariasummerinstitute.org/about-talaria">Talaria Summer Institute</a>.
+
+
+<br>
+<br>
+
+<br>
+    
+<details>
+  <summary> <span style="color:#800000;">Collaboration with Master/Bachelor Students!</span> </summary>
+  I would be happy to collaborate with Master/Bachelor students who would like to work on graph learning, ML in healthcare, and/or network science. I also have some projects in these areas that we can discuss.
+</details>
+
 
 
 
