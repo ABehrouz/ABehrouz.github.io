@@ -74,7 +74,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
     <tr>
     <td class="tg-wk8r">WWW 2022</td>
     <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. (<span style="color:#800000;">Oral</span>) <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <br> 
-      <a href="https://arxiv.org/pdf/2208.11200.pdf>
+      <a href="https://arxiv.org/pdf/2208.11200.pdf">
         <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
       </a>
       <a href="https://github.com/joint-em/FirmCore">
