@@ -46,13 +46,14 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
   <tbody>
     <tr>
       <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-      <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. (<span style="color:#800000;">Best Paper Award</span>) <br><u>Ali Behrouz</u>, Margo Seltzer <br> 
+      <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <br><u>Ali Behrouz</u>, Margo Seltzer <br> 
         <a href="https://openreview.net/pdf?id=t4H8acYudJ">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
         </a>
         <a href="https://github.com/ubc-systopia/ADMIRE">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
+        <br> <img src="https://github.com/ABehrouz/ABehrouz.github.io/blob/master/star.png" alt="PDF" style="width: auto; height: 10px;"/> <span style="color:#800000;">Best Paper Award</span>
       </td>
     </tr>
     <tr>
