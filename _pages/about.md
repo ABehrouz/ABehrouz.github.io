@@ -55,7 +55,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
         <span style="display: block; margin-bottom: -12px;"></span>
-        <br> <img src="star.png" alt="PDF" style="width: auto; height: 22px;"/> <span style="color:#800000;">Best Paper Award</span>
+        <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span>
       </td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
         </a>
         <span style="display: block; margin-bottom: -12px;"></span>
-        <br> <img src="star.png" alt="PDF" style="width: auto; height: 22px;"/> <span style="color:#800000;">Best Paper Honorable Mention Award</span>
+        <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Honorable Mention Award</span>
       </td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
         <span style="display: block; margin-bottom: -12px;"></span>
-        <br> <img src="star.png" alt="PDF" style="width: auto; height: 22px;"/> <span style="color:#800000;">Best Paper Award Candidate</span>
+        <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award Candidate</span>
       </td>
     </tr>
     <tr>
