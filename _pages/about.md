@@ -46,7 +46,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
   <tbody>
     <tr>
       <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-      <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -13px;"></span>
+      <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -14px;"></span>
         <br> 
         <a href="https://openreview.net/pdf?id=t4H8acYudJ">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
@@ -54,24 +54,24 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         <a href="https://github.com/ubc-systopia/ADMIRE">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
-        <span style="display: block; margin-bottom: -13px;"></span>
+        <span style="display: block; margin-bottom: -14px;"></span>
         <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span>
       </td>
     </tr>
     <tr>
       <td class="tg-wk8r">CIKM 2022</td>
-      <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks. <br><u>Ali Behrouz</u>, Farnoosh Hashemi <span style="display: block; margin-bottom: -13px;"></span>
+      <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks. <br><u>Ali Behrouz</u>, Farnoosh Hashemi <span style="display: block; margin-bottom: -14px;"></span>
         <br> 
         <a href="https://arxiv.org/pdf/2210.08811.pdf">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
         </a>
-        <span style="display: block; margin-bottom: -13px;"></span>
+        <span style="display: block; margin-bottom: -14px;"></span>
         <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Honorable Mention Award</span>
       </td>
     </tr>
     <tr>
       <td class="tg-wk8r">NeurIPS TGL Workshop 2022</td>
-      <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -13px;"></span>
+      <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction.  <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -14px;"></span>
         <br> 
         <a href="https://openreview.net/pdf?id=UDGZDfwmay">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
@@ -79,13 +79,13 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         <a href="https://github.com/ubc-systopia/Anomuly">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
-        <span style="display: block; margin-bottom: -13px;"></span>
+        <span style="display: block; margin-bottom: -14px;"></span>
         <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award Candidate</span>
       </td>
     </tr>
     <tr>
       <td class="tg-wk8r">WWW 2022</td>
-      <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <span style="display: block; margin-bottom: -13px;"></span>
+      <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <span style="display: block; margin-bottom: -14px;"></span>
         <br> 
         <a href="https://arxiv.org/pdf/2208.11200.pdf">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
@@ -93,7 +93,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         <a href="https://github.com/joint-em/FirmCore">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
-        <span style="display: block; margin-bottom: -13px;"></span>
+        <span style="display: block; margin-bottom: -14px;"></span>
         <br> <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Selected For Oral Presentation</span>
       </td>
     </tr>
