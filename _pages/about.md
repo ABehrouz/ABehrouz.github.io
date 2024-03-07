@@ -31,6 +31,20 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 <table class="tg">
   <thead>
     <tr>
+      <th class="tg-wk8r">Under Review 2024</th>
+      <th class="tg-oe15">Graph Mamba: Towards Learning on Graphs with State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Featured by Hugging Face</span>  <br><u>Ali Behrouz</u>, Farnoosh Hashemi 
+        <span style="display: block; margin-bottom: -13px;"></span> <br> 
+        <a href="https://arxiv.org/pdf/2402.08678.pdf">
+          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+        </a>
+        <a href="https://github.com/GraphMamba/GMN">
+          <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
+        </a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <th class="tg-wk8r">NeurIPS 2023</th>
       <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br><u>Ali Behrouz</u>, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer 
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
@@ -42,8 +56,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         </a>
       </th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
       <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -14px;"></span>
@@ -62,18 +74,6 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
         <br> 
         <a href="https://arxiv.org/pdf/2210.08811.pdf">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="tg-wk8r">NeurIPS TGL Workshop 2022</td>
-      <td class="tg-oe15">Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award Candidate</span> <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -14px;"></span>
-        <br> 
-        <a href="https://openreview.net/pdf?id=UDGZDfwmay">
-          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
-        </a>
-        <a href="https://github.com/ubc-systopia/Anomuly">
-          <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
       </td>
     </tr>
