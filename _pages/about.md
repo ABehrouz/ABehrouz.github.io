@@ -141,9 +141,9 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 
 # Service
 ---
-**Conference/Workshop Reviewer**: ICLR 2023, NeurIPS 2023, NeurIPS TGL Workshop 2023, KDD 2022.
+**Conference/Workshop Reviewer**: ICML 2024, KDD 2024, IJCAI 2024, MICCAI 2024, ICLR 2024, NeurIPS 2023, NeurIPS TGL Workshop 2023, KDD 2022.
   
-**Journal Reviewer**: TMLR 2023.
+**Journal Reviewer**: TMLR 2023-2024.
   
 **Other**: Mentor in <a href="https://talariasummerinstitute.org/about-talaria">Talaria Summer Institute</a>.
 
