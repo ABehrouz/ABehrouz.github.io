@@ -28,7 +28,7 @@ Neural Information Processing Systems, NeurIPS 2023.
 
 [13] Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and
 Functional Connectivity. [[Paper]](https://openreview.net/pdf?id=HSvg7qFFd2)  
-<u>A. Behrouz</u>, P. Delavari, F. Hashemi.
+<u>A. Behrouz</u>, P. Delavari, F. Hashemi.  
 Under Review. Also, presented in AI4Science NeurIPS Workshop 2023. 
 
 [12] Learning Temporal Higher-order Patterns to Detect Anomalous Brain Activity.  
