@@ -12,16 +12,32 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 
 {% include base_path %}
 
+# 2024
+---  
+[15] Graph Mamba: Towards Learning on Graphs with State Space Models. [[Paper]](https://arxiv.org/pdf/2402.08678.pdf) [[Code]](https://github.com/GraphMamba/GMN)   
+<u>A. Behrouz</u>, F. Hashemi.  
+Under Review. [<span style="color:#800000;">Featured by Hugging Face</span>]
+
+
 # 2023
 ---
 
-[12] CAT-Walk: Inductive Hypergraph Learning via Set Walks. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
+[14] CAT-Walk: Inductive Hypergraph Learning via Set Walks. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
 <u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
 
+[13] Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and
+Functional Connectivity. [[Paper]](https://openreview.net/pdf?id=HSvg7qFFd2)  
+<u>A. Behrouz</u>, P. Delavari, F. Hashemi.
+Under Review. Also, presented in AI4Science NeurIPS Workshop 2023. 
+
+[12] Learning Temporal Higher-order Patterns to Detect Anomalous Brain Activity.  
+<u>A. Behrouz</u>, F. Hashemi.  
+Machine Learning for Health Conference, ML4H 2023. [<span style="color:#800000;">Oral Talk</span>]  
+
 [11] Generalized Densest Subgraph in Multiplex Networks. [[Paper]]() [[Code]](https://github.com/joint-em/FirmCore)   
 <u>A. Behrouz</u>, F. Hashemi.  
-Conference on Complex Networks & Their Applications, CNA 2023. [<span style="color:#800000;">Oral</span>]
+Conference on Complex Networks & Their Applications, CNA 2023. [<span style="color:#800000;">Oral Talk</span>]
 
 [10] ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. [[Paper]](https://openreview.net/pdf?id=t4H8acYudJ) [[Code]](https://github.com/ubc-systopia/ADMIRE)    
 <u>A. Behrouz</u>, M. Seltzer.  
