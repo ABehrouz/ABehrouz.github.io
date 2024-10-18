@@ -56,14 +56,16 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
     <tbody>
     <tr>
       <th class="tg-wk8r">CHIL 2024</th>
-      <th class="tg-oe15">Brain-mamba: Encoding brain activity via selective state space models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Farnoosh Hashemi
+      <th class="tg-oe15">Brain-mamba: Encoding Brain Activity via Selective State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Farnoosh Hashemi
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
         <a href="https://proceedings.mlr.press/v248/behrouz24a.html">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
         </a>
+        <a href="https://github.com/GraphMamba/BrainMamba">
+          <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
+        </a>
       </th>
     </tr>
-  <tbody>
     <tr>
       <th class="tg-wk8r">NeurIPS 2023</th>
       <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br><u>Ali Behrouz</u>, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer 
@@ -97,18 +99,6 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
         </a>
       </td>
     </tr>
-    <tr>
-      <td class="tg-wk8r">WWW 2022</td>
-      <td class="tg-oe15">FirmCore Decomposition of Multilayer Networks. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Selected For Oral Presentation</span> <br> Farnoosh Hashemi*, <u>Ali Behrouz</u>*, Laks V.S. Lakshmanan  <span style="display: block; margin-bottom: -14px;"></span>
-        <br> 
-        <a href="https://arxiv.org/pdf/2208.11200.pdf">
-          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
-        </a>
-        <a href="https://github.com/joint-em/FirmCore">
-          <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
-        </a> 
-      </td>
-    </tr>
   </tbody>
 </table>
 
@@ -125,24 +115,24 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-wk8r">Sep 2023</th>
-    <th class="tg-oe15">Our paper "CAT-Walk: Inductive Hypergraph Learning via Set Walks" has been accepted to NeurIPS 2023.</th>
+    <th class="tg-wk8r">Sep 2024</th>
+    <th class="tg-oe15">I have started my internship at Google Research (NYC) and excited to work on both deep learning architectures and graph learning.</th>
   </tr>
   <tr>
-    <th class="tg-wk8r">Sep 2023</th>
-    <th class="tg-oe15">Our paper "Generalized Densest Subgraph in Multiplex Networks" has been accepted to the Conference on Complex Networks 2023.</th>
+    <th class="tg-wk8r">Sep 2024</th>
+    <th class="tg-oe15">Our paper "Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models" has been accepted to NeurIPS 2024.</th>
   </tr>
   <tr>
-    <th class="tg-wk8r">Aug 2023</th>
-    <th class="tg-oe15">I completed my M.Sc. with the thesis "Anomaly Detection in Multiplex Networks: from Human Brain Activity to Financial Networks". Next, I will start my Ph.D. at Cornell University. </th>
+    <th class="tg-wk8r">July 2024</th>
+    <th class="tg-oe15"> Our paper "Brain-mamba: Encoding Brain Activity via Selective State Space Models" won the best paper award at CHIL 2024. </th>
   </tr>
   <tr>
     <th class="tg-wk8r">July 2023</th>
     <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
   </tr>
   <tr>
-    <th class="tg-wk8r">June 2023</th>
-    <th class="tg-oe15">Our paper "Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" has been accepted to the Machine Learning for Healthcare Conference, MLHC 2023.</th>
+    <th class="tg-wk8r">July 2023</th>
+    <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
   </tr>
 </thead>
 <tbody>
