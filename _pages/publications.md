@@ -14,22 +14,38 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 
 # 2024
 ---  
-[15] Graph Mamba: Towards Learning on Graphs with State Space Models. [[Paper]](https://arxiv.org/pdf/2402.08678.pdf) [[Code]](https://github.com/GraphMamba/GMN)   
-<u>A. Behrouz</u>, F. Hashemi.  
-Under Review. [<span style="color:#800000;">Featured by Hugging Face</span>]
+[19] Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models. [[Paper]](https://arxiv.org/pdf/2406.04320)  
+<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih. 
+Neural Information Processing Systems, NeurIPS 2024. 
 
+[18] Brain-mamba: Encoding Brain Activity via Selective State Space Models. [[Paper]](https://proceedings.mlr.press/v248/behrouz24a.html) [[Code]](https://github.com/GraphMamba/BrainMamba)  
+<u>A. Behrouz</u>, F. Hashemi.  
+Conference on Health, Inference, and Learning, CHIL 2024. [<span style="color:#800000;">Best Paper Award</span>]
+
+[17] Graph Mamba: Towards Learning on Graphs with State Space Models. [[Paper]](https://arxiv.org/pdf/2402.08678.pdf) [[Code]](https://github.com/GraphMamba/GMN)   
+<u>A. Behrouz</u>, F. Hashemi.  
+ACM Knowledge Discovery and Data Mining Conference, KDD 2024. [<span style="color:#800000;">Featured by Hugging Face</span>]
+
+[16] A Unified Core Structure in Multiplex Networks: From Finding the Densest Subgraph to Modeling User Engagement. [[Paper]](https://arxiv.org/pdf/2406.13734) [[Code]](https://github.com/joint-em/FirmCore)   
+F. Hashemi, <u>A. Behrouz</u>.  
+ACM Knowledge Discovery and Data Mining Conference, KDD 2024.
+
+[15] Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and
+Functional Connectivity. [[Paper]](https://openreview.net/pdf?id=HSvg7qFFd2)  
+<u>A. Behrouz</u>, P. Delavari, F. Hashemi.  
+International Conference on Machine Learning, ICML 2024. Also, presented in AI4Science NeurIPS Workshop 2023. 
+
+[14] MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection. [[Paper]](https://arxiv.org/pdf/2403.19888)  
+<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih. 
+Under Review, 2024.
 
 # 2023
 ---
 
-[14] CAT-Walk: Inductive Hypergraph Learning via Set Walks. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
+[13] CAT-Walk: Inductive Hypergraph Learning via Set Walks. [[Paper]](https://arxiv.org/pdf/2306.11147.pdf) [[Code]](https://github.com/ubc-systopia/CATWalk)   
 <u>A. Behrouz</u>, F. Hashemi, S. Sadeghian, M. Seltzer.  
 Neural Information Processing Systems, NeurIPS 2023. 
 
-[13] Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and
-Functional Connectivity. [[Paper]](https://openreview.net/pdf?id=HSvg7qFFd2)  
-<u>A. Behrouz</u>, P. Delavari, F. Hashemi.  
-Under Review. Also, presented in AI4Science NeurIPS Workshop 2023. 
 
 [12] Learning Temporal Higher-order Patterns to Detect Anomalous Brain Activity.  
 <u>A. Behrouz</u>, F. Hashemi.  
