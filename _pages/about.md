@@ -150,9 +150,9 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
 
 # Service
 ---
-**Conference/Workshop Reviewer**: ICML 2024, KDD 2024, IJCAI 2024, MICCAI 2024, ICLR 2024, NeurIPS 2023, NeurIPS TGL Workshop 2023, KDD 2022.
+**Conference/Workshop Reviewer**: ICLR 2024-2025, NeurIPS 2023-2024, ICML 2024, KDD 2022-2024, IJCAI 2024, MICCAI 2024, Human Brain Mapping (OHBM) Annual Meeting 2024, NeurIPS TGL Workshop 2023.
   
-**Journal Reviewer**: TMLR 2023-2024.
+**Journal Reviewer**: JMLR 2024, TKDD 2024, TMLR 2023-2024.
   
 **Other**: Mentor in <a href="https://talariasummerinstitute.org/about-talaria">Talaria Summer Institute</a>.
 
