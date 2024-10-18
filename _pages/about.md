@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="justify">
-I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. My research interests generally lie in the areas of network science, graph representation learning, ML in healthcare, and computational neuroscience. 
+I am a second-year Ph.D. student at Cornell University and a research intern at Google Research (NYC). Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. My research interests generally lie in the areas of network science, graph representation learning, ML in healthcare, and computational neuroscience. 
 </p>
   
 <u>I am always open to collaboration!</u>
@@ -31,7 +31,7 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
 <table class="tg">
   <thead>
     <tr>
-      <th class="tg-wk8r">Under Review 2024</th>
+      <th class="tg-wk8r">KDD 2024</th>
       <th class="tg-oe15">Graph Mamba: Towards Learning on Graphs with State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Featured by Hugging Face</span>  <br><u>Ali Behrouz</u>, Farnoosh Hashemi 
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
         <a href="https://arxiv.org/pdf/2402.08678.pdf">
@@ -43,6 +43,16 @@ I am a first-year Ph.D. student at Cornell University. Before joining Cornell, I
       </th>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+      <th class="tg-wk8r">NeurIPS 2024</th>
+      <th class="tg-oe15">Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models.  <br><u>Ali Behrouz</u>, Michele Santacatterina, Ramin Zabih
+        <span style="display: block; margin-bottom: -13px;"></span> <br> 
+        <a href="https://arxiv.org/pdf/2406.04320">
+          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+        </a>
+      </th>
+    </tr>
   <tbody>
     <tr>
       <th class="tg-wk8r">NeurIPS 2023</th>
