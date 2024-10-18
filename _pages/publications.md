@@ -15,7 +15,7 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 # 2024
 ---  
 [19] Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models. [[Paper]](https://arxiv.org/pdf/2406.04320)  
-<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih. 
+<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih.   
 Neural Information Processing Systems, NeurIPS 2024. 
 
 [18] Brain-mamba: Encoding Brain Activity via Selective State Space Models. [[Paper]](https://proceedings.mlr.press/v248/behrouz24a.html) [[Code]](https://github.com/GraphMamba/BrainMamba)  
@@ -36,7 +36,7 @@ Functional Connectivity. [[Paper]](https://openreview.net/pdf?id=HSvg7qFFd2)
 International Conference on Machine Learning, ICML 2024. Also, presented in AI4Science NeurIPS Workshop 2023. 
 
 [14] MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection. [[Paper]](https://arxiv.org/pdf/2403.19888)  
-<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih. 
+<u>A. Behrouz</u>, Michele Santacatterina, Ramin Zabih.   
 Under Review, 2024.
 
 # 2023
