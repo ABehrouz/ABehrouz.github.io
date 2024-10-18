@@ -126,12 +126,12 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
     <th class="tg-oe15"> Our paper "Brain-mamba: Encoding Brain Activity via Selective State Space Models" won the best paper award at CHIL 2024. </th>
   </tr>
   <tr>
-    <th class="tg-wk8r">July 2023</th>
-    <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
+    <th class="tg-wk8r">May 2024</th>
+    <th class="tg-oe15">Our papers "Graph Mamba: Towards Learning on Graphs with State Space Models" and "A Unified Core Structure in Multiplex Networks: From Finding the Densest Subgraph to Modeling User Engagement" have been accepted to KDD 2024.</th>
   </tr>
   <tr>
-    <th class="tg-wk8r">July 2023</th>
-    <th class="tg-oe15">Our paper "ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks" won the best paper award in the ICML IMLH workshop.</th>
+    <th class="tg-wk8r">May 2023</th>
+    <th class="tg-oe15">Our paper "Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and Functional Connectivity" has been accepted to ICML 2024.</th>
   </tr>
 </thead>
 <tbody>
