@@ -53,10 +53,9 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
         </a>
       </th>
     </tr>
-    <tbody>
     <tr>
       <th class="tg-wk8r">CHIL 2024</th>
-      <th class="tg-oe15">Brain-mamba: Encoding Brain Activity via Selective State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Farnoosh Hashemi
+      <th class="tg-oe15">Brain-mamba: Encoding Brain Activity via Selective State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/>  <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Farnoosh Hashemi
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
         <a href="https://proceedings.mlr.press/v248/behrouz24a.html">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
