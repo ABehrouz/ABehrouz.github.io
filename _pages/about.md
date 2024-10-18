@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="justify">
-I am a second-year Ph.D. student at Cornell University and a research intern at Google Research (NYC). Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been very fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. I am interested in a diverse topics of research and I am currently working on deep learning architectures, graph representation learning, ML in healthcare, and computational neuroscience. 
+I am a second-year Ph.D. student in the Computer Science Department at Cornell University, and a research intern at Google Research (NYC). Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been extremely fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. I am interested in a diverse topics of research and I am currently working on deep learning architectures, graph representation learning, ML in healthcare, and computational neuroscience. 
 </p>
   
 <u>I am always open to collaboration!</u>
