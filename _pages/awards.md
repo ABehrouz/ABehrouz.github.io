@@ -23,18 +23,22 @@ author_profile: true
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-wk8r">2023</th>
-    <th class="tg-oe15"> <span style="color:#800000;">Best Paper Award</span> in ICML Interpretable ML in Healthcare Workshop (with $1000 prize). </th>
+    <th class="tg-wk8r">2024</th>
+    <th class="tg-oe15"> <span style="color:#800000;">Best Paper Award</span> in Conference on Health, Inference, and Learning (CHIL). </th>
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <th class="tg-wk8r">2023</th>
+    <th class="tg-oe15"> <span style="color:#800000;">Best Paper Award</span> in ICML Interpretable ML in Healthcare Workshop (with $1000 prize). </th>
+  </tr>
    <tr>
     <td class="tg-wk8r">2023</td>
     <td class="tg-oe15"> Awarded Cornell <span style="color:#800000;">Ph.D. Fellowship</span>. </td>
   </tr>
   <tr>
-    <td class="tg-wk8r">2023</td>
-    <td class="tg-oe15"> Awarded NSF <span style="color:#800000;">Travel Fellowship</span> ($1600). </td>
+    <td class="tg-wk8r">2023, 2024</td>
+    <td class="tg-oe15"> Awarded NSF <span style="color:#800000;">Travel Fellowship</span> ($2600). </td>
   </tr>
   <tr>
     <td class="tg-wk8r">2022</td>
