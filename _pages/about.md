@@ -66,6 +66,15 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
       </th>
     </tr>
     <tr>
+      <th class="tg-wk8r">ICML 2024</th>
+      <th class="tg-oe15">Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and Functional Connectivity.  <br><u>Ali Behrouz</u>, Parsa Delavari, Farnoosh Hashemi
+        <span style="display: block; margin-bottom: -13px;"></span> <br> 
+        <a href="https://openreview.net/pdf?id=nOjZfpLyh1">
+          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+        </a>
+      </th>
+    </tr>
+    <tr>
       <th class="tg-wk8r">NeurIPS 2023</th>
       <th class="tg-oe15">CAT-Walk: Inductive Hypergraph Learning via Set Walks.  <br><u>Ali Behrouz</u>, Farnoosh Hashemi, Sadaf Sadeghian, Margo Seltzer 
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
@@ -86,15 +95,6 @@ I am a second-year Ph.D. student at Cornell University and a research intern at 
         </a>
         <a href="https://github.com/ubc-systopia/ADMIRE">
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="tg-wk8r">CIKM 2022</td>
-      <td class="tg-oe15">CS-MLGCN: Multiplex Graph Convolutional Networks for Community Search in Multiplex Networks. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Honorable Mention Award</span> <br><u>Ali Behrouz</u>, Farnoosh Hashemi <span style="display: block; margin-bottom: -14px;"></span>
-        <br> 
-        <a href="https://arxiv.org/pdf/2210.08811.pdf">
-          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
         </a>
       </td>
     </tr>
