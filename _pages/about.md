@@ -32,7 +32,7 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
   <thead>
     <tr>
       <th class="tg-wk8r">KDD 2024</th>
-      <th class="tg-oe15">Graph Mamba: Towards Learning on Graphs with State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Featured by Hugging Face</span>  <br><u>Ali Behrouz</u>, Farnoosh Hashemi 
+      <th class="tg-oe15">Graph Mamba: Towards Learning on Graphs with State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Second Most Influential Paper of KDD 2024</span>  <br><u>Ali Behrouz</u>, Farnoosh Hashemi 
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
         <a href="https://arxiv.org/pdf/2402.08678.pdf">
           <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
