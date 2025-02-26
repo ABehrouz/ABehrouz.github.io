@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="justify">
-I am a second-year Ph.D. student in the Computer Science Department at Cornell University, and a research intern at Google Research (NYC). Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been extremely fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. I am interested in a diverse topics of research and I am currently working on deep learning architectures, graph representation learning, ML in healthcare, and computational neuroscience. 
+I am a second-year Ph.D. student in the Computer Science Department at Cornell University, and a research intern at Google Research (NYC). Before joining Cornell, I completed my M.Sc. in Computer Science at the University of British Columbia, where I had been extremely fortunate to be advised by <a href="https://www.seltzer.com/margo/">Prof. Margo Seltzer</a>. Before that, I received my B.Sc. in Computer Engineering with a minor in Mathematics at the Sharif University of Technology. I am interested in a diverse topics of research and I am currently working on deep learning architectures, ML in healthcare, and computational neuroscience. 
 </p>
   
 <u>I am always open to collaboration!</u>
@@ -111,6 +111,10 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
 <table class="tg">
 <thead>
   <tr>
+    <th class="tg-wk8r">Jan - Feb 2025</th>
+    <th class="tg-oe15">Gave invited talks at Google Research, Google DeepMind, Allen Institute for AI, DRW, ... on Titans and deep learning architectures.</th>
+  </tr>
+  <tr>
     <th class="tg-wk8r">Sep 2024</th>
     <th class="tg-oe15">I have started my internship at Google Research (NYC) and excited to work on both deep learning architectures and graph learning.</th>
   </tr>
@@ -149,7 +153,7 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
 ---
 **Conference/Workshop Reviewer**: ICLR 2024-2025, NeurIPS 2023-2024, ICML 2024, KDD 2022-2024, IJCAI 2024, MICCAI 2024, Human Brain Mapping (OHBM) Annual Meeting 2024, NeurIPS TGL Workshop 2023.
   
-**Journal Reviewer**: JMLR 2024, TKDD 2024, TMLR 2023-2024.
+**Journal Reviewer**: JMLR 2024-2025, TKDD 2024, TMLR 2023-2024.
   
 **Other**: Mentor in <a href="https://talariasummerinstitute.org/about-talaria">Talaria Summer Institute</a>.
 
@@ -158,8 +162,8 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
 ---
     
 <details>
-  <summary> <span style="color:#800000;">Collaboration with Master/Bachelor Students!</span> </summary>
-  I would be happy to collaborate with Master/Bachelor students who would like to work on graph learning, ML in healthcare, and/or network science. I also have some projects in these areas that we can discuss.
+  <summary> <span style="color:#800000;">Collaboration with Ph.D./Master/Bachelor Students!</span> </summary>
+  I would be happy to collaborate with Ph.D./Master/Bachelor students who would like to work on time series, ML in healthcare, and/or vision tasks. I also have some projects in these areas that we can discuss.
 </details>
 
 
