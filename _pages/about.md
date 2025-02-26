@@ -112,7 +112,7 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
 <thead>
   <tr>
     <th class="tg-wk8r">Jan - Feb 2025</th>
-    <th class="tg-oe15">Gave invited talks at Google Research, Google DeepMind, Allen Institute for AI, DRW, ... on Titans and deep learning architectures.</th>
+    <th class="tg-oe15">Gave invited talks at Google Research, Google DeepMind, Mila, Allen Institute for AI, DRW, ... on Titans and deep learning architectures.</th>
   </tr>
   <tr>
     <th class="tg-wk8r">Sep 2024</th>
