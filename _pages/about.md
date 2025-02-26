@@ -31,6 +31,17 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
 <table class="tg">
   <thead>
     <tr>
+      <th class="tg-wk8r">arXiv 2024</th>
+      <th class="tg-oe15">Titans: Learning to Memorize at Test Time. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Featured in various media (e.g., <a href="https://www.forbes.com/sites/craigsmith/2025/01/19/googles-titans-give-ai-human-like-memory/">Forbes</a>)</span>  <br><u>Ali Behrouz</u>, Peilin Zhong, Vahab Mirrokni 
+        <span style="display: block; margin-bottom: -13px;"></span> <br> 
+        <a href="https://arxiv.org/pdf/2501.00663">
+          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
+        </a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
       <th class="tg-wk8r">KDD 2024</th>
       <th class="tg-oe15">Graph Mamba: Towards Learning on Graphs with State Space Models. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Second Most Influential Paper of KDD 2024</span>  <br><u>Ali Behrouz</u>, Farnoosh Hashemi 
         <span style="display: block; margin-bottom: -13px;"></span> <br> 
@@ -42,8 +53,6 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
         </a>
       </th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <th class="tg-wk8r">NeurIPS 2024</th>
       <th class="tg-oe15">Chimera: Effectively Modeling Multivariate Time Series with 2-Dimensional State Space Models.  <br><u>Ali Behrouz</u>, Michele Santacatterina, Ramin Zabih
@@ -85,18 +94,6 @@ I am a second-year Ph.D. student in the Computer Science Department at Cornell U
           <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
         </a>
       </th>
-    </tr>
-    <tr>
-      <td class="tg-wk8r">ICML IMLH Workshop 2023</td>
-      <td class="tg-oe15">ADMIRE++: Explainable Anomaly Detection in the Human Brain via Inductive Learning on Temporal Multiplex Networks. <img src="star.png" alt="PDF" style="width: auto; height: 18px;"/> <span style="color:#800000;">Best Paper Award</span> <br><u>Ali Behrouz</u>, Margo Seltzer <span style="display: block; margin-bottom: -14px;"></span>
-        <br> 
-        <a href="https://openreview.net/pdf?id=t4H8acYudJ">
-          <img src="https://img.shields.io/badge/PDF-80000f" alt="PDF" style="width: auto; height: 20px;"/>
-        </a>
-        <a href="https://github.com/ubc-systopia/ADMIRE">
-          <img src="https://img.shields.io/badge/GitHub-004f80" alt="GitHub Repository" style="width: auto; height: 20px;"/>
-        </a>
-      </td>
     </tr>
   </tbody>
 </table>
