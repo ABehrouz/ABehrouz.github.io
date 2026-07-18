@@ -3,401 +3,315 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OpenAtlas</title>
-  <meta name="description" content="OpenAtlas — a research project." />
-  <!-- progressive enhancement: only hide-then-reveal when JS is available -->
-  <script>document.documentElement.classList.add("js");</script>
-
-  <!-- Fonts -->
+  <title>OpenAtlas — an open large-scale model built on linear sequence models</title>
+  <meta name="description" content="OpenAtlas is an open research project training a large-scale model based on recent advances in linear sequence models (ATLAS) — fully open source. Supported by a Laude Institute Slingshots grant." />
+  <link rel="canonical" href="https://abehrouz.github.io/OpenAtlas/" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="OpenAtlas" />
+  <meta property="og:description" content="Training a large-scale model on recent advances in linear sequence models — and making it open source." />
+  <meta property="og:url" content="https://abehrouz.github.io/OpenAtlas/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #0b0d17;
-      --bg-soft: #11142130;
-      --ink: #0b0d17;
-      --paper: #f7f8fc;
-      --muted: #6b7280;
-      --line: #e6e8f0;
-      --brand: #6d5efc;
-      --brand-2: #22d3ee;
-      --accent: #ff7a59;
-      --radius: 18px;
-      --maxw: 1080px;
+      --navy: #0a0f1e;
+      --paper: #ffffff;
+      --ink: #17181c;
+      --muted: #5f6572;
+      --line: #e7e8ee;
+      --indigo: #6d5efc;
+      --cyan: #22d3ee;
+      --indigo-soft: #efedff;
+      --maxw: 56rem;
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
       color: var(--ink);
       background: var(--paper);
-      line-height: 1.65;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
 
-    h1, h2, h3, .brand {
-      font-family: "Space Grotesk", sans-serif;
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-    }
+    h1, h2, .brand { font-family: "Space Grotesk", "Inter", sans-serif; letter-spacing: -0.02em; }
 
-    a { color: inherit; text-decoration: none; }
+    a { color: var(--indigo); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
-    .wrap {
-      max-width: var(--maxw);
-      margin: 0 auto;
-      padding: 0 24px;
-    }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.4rem; }
 
-    /* ---------- Nav ---------- */
-    nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 50;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 16px 24px;
-      background: rgba(11, 13, 23, 0.55);
-      backdrop-filter: saturate(180%) blur(14px);
-      -webkit-backdrop-filter: saturate(180%) blur(14px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    nav .brand {
-      color: #fff;
-      font-weight: 700;
-      font-size: 20px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    nav .brand .dot {
-      width: 12px; height: 12px; border-radius: 50%;
-      background: linear-gradient(135deg, var(--brand), var(--brand-2));
-      box-shadow: 0 0 18px 2px rgba(109, 94, 252, 0.7);
-    }
-    nav .links { display: flex; gap: 26px; }
-    nav .links a {
-      color: rgba(255, 255, 255, 0.72);
-      font-size: 14px;
-      font-weight: 500;
-      transition: color 0.2s ease;
-    }
-    nav .links a:hover { color: #fff; }
-    @media (max-width: 640px) { nav .links { display: none; } }
-
-    /* ---------- Hero ---------- */
-    header.hero {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-      background: var(--bg);
-      overflow: hidden;
-    }
-    .hero .mesh {
-      position: absolute;
-      inset: -20%;
+    /* ---- hero ---- */
+    .hero {
       background:
-        radial-gradient(38% 44% at 22% 28%, rgba(109, 94, 252, 0.55), transparent 60%),
-        radial-gradient(34% 40% at 80% 30%, rgba(34, 211, 238, 0.45), transparent 60%),
-        radial-gradient(46% 50% at 60% 82%, rgba(255, 122, 89, 0.40), transparent 62%);
-      filter: blur(20px);
-      animation: drift 18s ease-in-out infinite alternate;
+        radial-gradient(52rem 30rem at 12% -12%, rgba(109, 94, 252, 0.38), transparent 60%),
+        radial-gradient(46rem 28rem at 92% -6%, rgba(34, 211, 238, 0.26), transparent 55%),
+        var(--navy);
+      color: #eef0f8;
+      padding-bottom: 5.5rem;
     }
-    @keyframes drift {
-      0%   { transform: translate3d(0, 0, 0) scale(1); }
-      50%  { transform: translate3d(2%, -2%, 0) scale(1.06); }
-      100% { transform: translate3d(-2%, 2%, 0) scale(1.02); }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.15rem 0;
     }
-    /* subtle atlas / grid motif */
-    .hero .grid-lines {
-      position: absolute; inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
-      background-size: 54px 54px;
-      mask-image: radial-gradient(circle at 50% 45%, #000 30%, transparent 78%);
-      -webkit-mask-image: radial-gradient(circle at 50% 45%, #000 30%, transparent 78%);
+    .brand { font-weight: 700; font-size: 1.05rem; color: #fff; display: inline-flex; align-items: center; gap: 0.55rem; }
+    .brand:hover { text-decoration: none; }
+    .brand .dot {
+      width: 0.72rem; height: 0.72rem; border-radius: 50%;
+      background: linear-gradient(135deg, var(--indigo), var(--cyan));
+      box-shadow: 0 0 14px rgba(109, 94, 252, 0.8);
     }
-    .hero-inner { position: relative; z-index: 2; padding: 120px 24px; }
-    .eyebrow {
+    .topnav { display: flex; gap: 1.3rem; font-size: 0.9rem; flex-wrap: wrap; }
+    .topnav a { color: #c4c9dd; }
+    .topnav a:hover { color: #fff; text-decoration: none; }
+
+    .hero-inner { padding-top: 4.5rem; text-align: center; }
+
+    .badge {
       display: inline-block;
-      font-size: 13px;
-      letter-spacing: 0.18em;
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.7);
-      padding: 8px 16px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #cfd4ea;
+      border: 1px solid rgba(255, 255, 255, 0.22);
       border-radius: 999px;
-      margin-bottom: 28px;
-      background: rgba(255, 255, 255, 0.04);
+      padding: 0.32rem 0.95rem;
+      background: rgba(255, 255, 255, 0.05);
     }
-    .hero h1 {
-      font-size: clamp(52px, 11vw, 132px);
+
+    h1 {
+      margin: 1.15rem 0 0;
+      font-size: clamp(2.9rem, 8.5vw, 4.6rem);
       font-weight: 700;
-      margin: 0 0 18px;
-      background: linear-gradient(180deg, #fff 30%, #b9b6ff 100%);
+      line-height: 1.04;
+      background: linear-gradient(100deg, #ffffff 20%, #c9c2ff 55%, #7de7f7 90%);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
     }
-    .hero .tagline {
-      font-size: clamp(17px, 2.4vw, 22px);
-      color: rgba(255, 255, 255, 0.82);
-      max-width: 620px;
-      margin: 0 auto 40px;
+
+    .tagline {
+      max-width: 36rem;
+      margin: 1.3rem auto 0;
+      color: #b9bfd6;
+      font-size: 1.06rem;
     }
-    .cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .tagline a { color: #9fe8f5; }
+
+    .cta { margin-top: 2rem; display: flex; gap: 0.7rem; justify-content: center; flex-wrap: wrap; }
     .btn {
       display: inline-flex;
       align-items: center;
-      gap: 9px;
-      padding: 14px 26px;
+      gap: 0.45rem;
+      font-weight: 600;
+      font-size: 0.92rem;
       border-radius: 999px;
-      font-weight: 600;
-      font-size: 15px;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+      padding: 0.6rem 1.35rem;
     }
-    .btn-primary {
-      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+    .btn.primary {
+      background: linear-gradient(120deg, var(--indigo), #4f8ef7);
       color: #fff;
-      box-shadow: 0 10px 30px -8px rgba(109, 94, 252, 0.7);
+      box-shadow: 0 10px 26px rgba(109, 94, 252, 0.35);
     }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 38px -8px rgba(109, 94, 252, 0.85); }
-    .btn-ghost {
-      background: rgba(255, 255, 255, 0.06);
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .btn-ghost:hover { transform: translateY(-2px); background: rgba(255, 255, 255, 0.12); }
+    .btn.primary:hover { text-decoration: none; filter: brightness(1.08); }
+    .btn.ghost { border: 1px solid rgba(255, 255, 255, 0.3); color: #e6e9f5; }
+    .btn.ghost:hover { text-decoration: none; background: rgba(255, 255, 255, 0.08); }
 
-    .scroll-hint {
+    /* ---- sections ---- */
+    section { padding: 3.6rem 0 0; }
+    section:last-of-type { padding-bottom: 4rem; }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin: 0 0 0.9rem;
+      position: relative;
+      padding-bottom: 0.55rem;
+    }
+    h2::after {
+      content: "";
       position: absolute;
-      bottom: 26px; left: 50%;
-      transform: translateX(-50%);
-      z-index: 2;
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 12px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      animation: bob 2.4s ease-in-out infinite;
-    }
-    @keyframes bob { 0%,100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
-
-    /* ---------- Sections ---------- */
-    section { padding: 96px 0; }
-    .section-tag {
-      font-size: 13px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--brand);
-      font-weight: 600;
-      margin-bottom: 14px;
-    }
-    h2 { font-size: clamp(28px, 4vw, 40px); margin: 0 0 20px; }
-    .lead { font-size: 18px; color: #384152; max-width: 720px; }
-
-    .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
-    .js .reveal.in { opacity: 1; transform: none; }
-    @media (prefers-reduced-motion: reduce) {
-      .js .reveal { opacity: 1; transform: none; transition: none; }
+      left: 0; bottom: 0;
+      width: 2.6rem; height: 3px;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--indigo), var(--cyan));
     }
 
-    /* Highlights grid */
+    .lead { color: var(--muted); max-width: 44rem; margin: 0; }
+    .lead b { color: var(--ink); font-weight: 600; }
+
     .cards {
+      margin-top: 1.6rem;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 22px;
-      margin-top: 46px;
+      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      gap: 1rem;
     }
-    @media (max-width: 860px) { .cards { grid-template-columns: 1fr; } }
     .card {
-      background: #fff;
-      color: var(--ink);
-      text-align: left;
       border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 30px 26px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      border-radius: 16px;
+      padding: 1.15rem 1.2rem;
+      background: linear-gradient(180deg, #fafaff, #fff);
     }
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 22px 46px -22px rgba(15, 23, 42, 0.28);
-      border-color: transparent;
+    .card .k {
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.35rem;
     }
-    .card .ic {
-      width: 46px; height: 46px;
-      display: grid; place-items: center;
-      border-radius: 12px;
-      background: linear-gradient(135deg, rgba(109,94,252,0.14), rgba(34,211,238,0.14));
-      margin-bottom: 18px;
-      font-size: 22px;
+    .card .k .sq {
+      width: 0.6rem; height: 0.6rem; border-radius: 3px;
+      background: linear-gradient(135deg, var(--indigo), var(--cyan));
     }
-    .card h3 { font-size: 19px; margin: 0 0 8px; }
-    .card p { margin: 0; color: var(--muted); font-size: 15px; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.93rem; }
 
-    /* Alt section */
-    .alt { background: #0f1222; color: #fff; }
-    .alt .lead { color: rgba(255, 255, 255, 0.72); }
-    .alt h2 { color: #fff; }
+    .team { margin: 0.4rem 0 0; color: var(--muted); }
+    .team b { color: var(--ink); font-weight: 600; }
 
-    /* Citation */
-    .cite {
-      background: #0b0d17;
-      border: 1px solid rgba(255,255,255,0.12);
+    pre {
+      background: #0d1226;
+      color: #dfe3f5;
       border-radius: 14px;
-      padding: 22px 24px;
-      margin-top: 26px;
+      padding: 1.15rem 1.3rem;
       overflow-x: auto;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      margin: 1.1rem 0 0;
     }
-    .cite pre {
-      margin: 0;
-      font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace;
-      font-size: 13.5px;
-      color: #c9d1e6;
-      line-height: 1.7;
-    }
-    .copy-btn {
-      float: right;
-      font-size: 12px;
-      color: var(--brand-2);
-      cursor: pointer;
-      border: 1px solid rgba(34,211,238,0.4);
-      background: transparent;
-      border-radius: 8px;
-      padding: 5px 12px;
-      font-family: inherit;
-    }
-    .copy-btn:hover { background: rgba(34,211,238,0.12); }
+    code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
 
-    /* Footer */
-    footer {
-      background: var(--bg);
-      color: rgba(255, 255, 255, 0.6);
-      text-align: center;
-      padding: 40px 24px;
-      font-size: 14px;
-      border-top: 1px solid rgba(255,255,255,0.08);
+    .ref { margin-top: 0.9rem; color: var(--muted); font-size: 0.92rem; }
+
+    .ack {
+      margin-top: 1.4rem;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fafbff;
+      padding: 1rem 1.25rem;
+      color: var(--muted);
     }
-    footer .brand { color: #fff; font-size: 18px; margin-bottom: 8px; display: inline-block; }
+    .ack b { color: var(--ink); }
+
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 4rem;
+      padding: 1.5rem 0 2.2rem;
+      color: #9aa0ae;
+      font-size: 0.87rem;
+    }
+    footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    footer a { color: var(--muted); }
   </style>
 </head>
-
 <body>
-  <nav>
-    <a href="#top" class="brand"><span class="dot"></span>OpenAtlas</a>
-    <div class="links">
-      <a href="#overview">Overview</a>
-      <a href="#highlights">Highlights</a>
-      <a href="#citation">Citation</a>
-    </div>
-  </nav>
 
-  <!-- Hero -->
-  <header class="hero" id="top">
-    <div class="mesh"></div>
-    <div class="grid-lines"></div>
+<div class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="/OpenAtlas/"><span class="dot"></span>OpenAtlas</a>
+      <nav class="topnav">
+        <a href="#overview">Overview</a>
+        <a href="#citation">Citation</a>
+        <a href="#acknowledgements">Acknowledgements</a>
+        <a href="/">abehrouz.github.io ↗</a>
+      </nav>
+    </div>
+
     <div class="hero-inner">
-      <span class="eyebrow">Research Project</span>
+      <span class="badge">Open Research Project</span>
       <h1>OpenAtlas</h1>
-      <p class="tagline">A one-line description of the project goes here — the map for exploring your big idea.</p>
+      <p class="tagline">
+        Training a large-scale model built on recent advances in linear sequence models
+        from the <a href="https://arxiv.org/abs/2505.23735" target="_blank" rel="noopener">ATLAS</a> paper &mdash;
+        and making it fully open source.
+      </p>
       <div class="cta">
-        <a class="btn btn-primary" href="#">📄 Paper</a>
-        <a class="btn btn-ghost" href="#">&lt;/&gt; Code</a>
-        <a class="btn btn-ghost" href="#">◈ Data</a>
+        <a class="btn primary" href="https://arxiv.org/abs/2505.23735" target="_blank" rel="noopener">Read the ATLAS paper</a>
+        <a class="btn ghost" href="mailto:ab2947@cornell.edu">Get in touch</a>
       </div>
     </div>
-    <div class="scroll-hint">scroll to explore</div>
-  </header>
+  </div>
+</div>
 
-  <!-- Overview -->
-  <section id="overview" class="wrap reveal">
-    <div class="section-tag">Overview</div>
-    <h2>What is OpenAtlas?</h2>
+<main class="wrap">
+
+  <section id="overview">
+    <h2>Overview</h2>
     <p class="lead">
-      Replace this paragraph with a short, compelling summary of your research project — the
-      problem you tackle, the core idea behind your approach, and why it matters. Aim for two or
-      three sentences that a broad audience can follow at a glance.
+      <b>OpenAtlas</b> is an open effort to train a <b>large-scale model</b> based on recent advances in
+      <b>linear sequence models</b> introduced in
+      <a href="https://arxiv.org/abs/2505.23735" target="_blank" rel="noopener">ATLAS: Learning to Optimally
+      Memorize the Context at Test Time</a> (Behrouz et al., ICML 2026) &mdash; and to release the results
+      <b>open source</b> for the research community.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <div class="k"><span class="sq"></span>Linear sequence models</div>
+        <p>Built on the ATLAS architecture: efficient, high-capacity memory that learns to memorize the context at test time.</p>
+      </div>
+      <div class="card">
+        <div class="k"><span class="sq"></span>Large scale</div>
+        <p>Bringing these architectural advances from research prototypes to large-scale training.</p>
+      </div>
+      <div class="card">
+        <div class="k"><span class="sq"></span>Open source</div>
+        <p>Everything released openly &mdash; so anyone can study, reproduce, and build on the results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <h2>Team</h2>
+    <p class="team">
+      <b>Ali Behrouz</b>, <b>Farnoosh Hashemi</b>, <b>Daniel Cao</b>, and <b>Ramin Zabih</b>.
     </p>
   </section>
 
-  <!-- Highlights -->
-  <section id="highlights" class="alt">
-    <div class="wrap reveal">
-      <div class="section-tag" style="color: var(--brand-2)">Highlights</div>
-      <h2>Key contributions</h2>
-      <p class="lead">A few sentences describing what makes this work stand out.</p>
-      <div class="cards">
-        <div class="card">
-          <div class="ic">🗺️</div>
-          <h3>Contribution one</h3>
-          <p>Describe the first key idea, method, or result of your project here.</p>
-        </div>
-        <div class="card">
-          <div class="ic">⚡</div>
-          <h3>Contribution two</h3>
-          <p>Highlight a second strength — efficiency, scalability, accuracy, or novelty.</p>
-        </div>
-        <div class="card">
-          <div class="ic">🔭</div>
-          <h3>Contribution three</h3>
-          <p>Round out the story with a third takeaway readers should remember.</p>
-        </div>
-      </div>
+  <section id="citation">
+    <h2>Citation</h2>
+    <p class="lead">If you build on OpenAtlas, please cite:</p>
+<pre><code>@misc{openatlas2026,
+  title  = {OpenAtlas: An Open Large-Scale Model Built on Linear Sequence Models},
+  author = {Behrouz, Ali and Hashemi, Farnoosh and Cao, Daniel and Zabih, Ramin},
+  year   = {2026},
+  url    = {https://abehrouz.github.io/OpenAtlas/}
+}</code></pre>
+    <p class="ref">
+      Reference: Ali Behrouz, Zeman Li, Praneeth Kacham, Majid Daliri, Yuan Deng, Peilin Zhong,
+      Meisam Razaviyayn, and Vahab Mirrokni.
+      &ldquo;<a href="https://arxiv.org/abs/2505.23735" target="_blank" rel="noopener">ATLAS: Learning to
+      Optimally Memorize the Context at Test Time</a>.&rdquo; ICML 2026.
+    </p>
+  </section>
+
+  <section id="acknowledgements">
+    <h2>Acknowledgements</h2>
+    <div class="ack">
+      OpenAtlas is generously supported by a <b>Slingshots grant</b> from the
+      <a href="https://www.laude.org/slingshots" target="_blank" rel="noopener">Laude Institute</a>.
+      We are grateful for their support of open, ambitious AI research.
     </div>
   </section>
 
-  <!-- Citation -->
-  <section id="citation" class="wrap reveal">
-    <div class="section-tag">Citation</div>
-    <h2>Cite this work</h2>
-    <p class="lead">If you find OpenAtlas useful, please consider citing:</p>
-    <div class="cite">
-      <button class="copy-btn" onclick="copyCite(this)">Copy</button>
-      <pre id="bibtex">@article{openatlas,
-  title   = {OpenAtlas: TODO},
-  author  = {TODO},
-  journal = {TODO},
-  year    = {TODO}
-}</pre>
-    </div>
-  </section>
+</main>
 
-  <!-- Footer -->
-  <footer>
-    <a href="#top" class="brand">OpenAtlas</a>
-    <p>© <span id="yr"></span> OpenAtlas. All rights reserved.</p>
-  </footer>
+<footer>
+  <div class="wrap">
+    <span>© 2026 The OpenAtlas Team</span>
+    <span><a href="/">Ali Behrouz</a> · <a href="https://www.laude.org/slingshots" target="_blank" rel="noopener">Laude Slingshots</a></span>
+  </div>
+</footer>
 
-  <script>
-    // Reveal on scroll
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("in"); });
-    }, { threshold: 0.12 });
-    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
-
-    // Copy BibTeX
-    function copyCite(btn) {
-      const text = document.getElementById("bibtex").innerText;
-      navigator.clipboard.writeText(text).then(() => {
-        const old = btn.textContent;
-        btn.textContent = "Copied!";
-        setTimeout(() => (btn.textContent = old), 1600);
-      });
-    }
-
-    // Year
-    document.getElementById("yr").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
