@@ -1,0 +1,382 @@
+/* ============================================================
+   Ali Behrouz — personal academic site
+   Modern-minimal, light theme. No frameworks, no build step.
+   Accent + spacing controlled by the variables below.
+   ============================================================ */
+
+:root {
+  --bg: #ffffff;
+  --ink: #18181b;          /* primary text */
+  --muted: #6b7280;        /* secondary text */
+  --faint: #9ca3af;        /* dates, footer */
+  --line: #e7e7ea;         /* hairlines */
+  --accent: #1d4ed8;       /* links & highlights */
+  --accent-soft: #eef3fe;  /* soft accent background */
+  --chip-bg: #f4f4f5;      /* neutral chip */
+  --chip-ink: #3f3f46;
+  --award-bg: #fdf1d7;     /* award chip */
+  --award-ink: #92500e;
+  --maxw: 46.5rem;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent-soft); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ---------- header ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.86);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.brand:hover { text-decoration: none; color: var(--accent); }
+
+.site-nav {
+  display: flex;
+  gap: 0.3rem 1.15rem;
+  flex-wrap: wrap;
+  font-size: 0.92rem;
+}
+.site-nav a { color: var(--muted); }
+.site-nav a:hover { color: var(--ink); text-decoration: none; }
+.site-nav a.active { color: var(--ink); font-weight: 550; }
+.site-nav a .ext { font-size: 0.8em; opacity: 0.7; }
+
+/* ---------- layout ---------- */
+
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+section { margin-top: 3rem; }
+
+h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.page-title {
+  font-size: 1.55rem;
+  margin-top: 2.75rem;
+}
+
+.page-lede {
+  color: var(--muted);
+  margin: 0.6rem 0 0;
+  font-size: 0.97rem;
+}
+
+h2 {
+  font-size: 1.17rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.35rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--line);
+}
+
+h3.year {
+  font-size: 1rem;
+  font-weight: 650;
+  color: var(--ink);
+  margin: 2.4rem 0 0.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--line);
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3.25rem;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 152px;
+  height: 152px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+
+.role {
+  color: var(--muted);
+  margin: 0.55rem 0 0;
+  line-height: 1.55;
+}
+.role .at { color: var(--faint); }
+
+/* ---------- link pills ---------- */
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+}
+.links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
+/* ---------- intro / prose ---------- */
+
+.intro p { margin: 1.05rem 0; }
+.intro .hello { margin-top: 2.25rem; }
+
+details.collab {
+  margin-top: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+}
+details.collab summary {
+  cursor: pointer;
+  font-weight: 550;
+  color: var(--accent);
+}
+details.collab p { margin: 0.6rem 0 0.2rem; color: var(--muted); }
+
+/* ---------- publications ---------- */
+
+.publist { margin: 0; padding: 0; list-style: none; }
+
+.pub {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub:last-child { border-bottom: none; }
+
+.pub .title {
+  font-weight: 600;
+  letter-spacing: -0.008em;
+  line-height: 1.45;
+  margin: 0;
+}
+.pub .title a { color: var(--ink); }
+.pub .title a:hover { color: var(--accent); text-decoration: none; }
+.pub .title .nolink { color: var(--ink); }
+
+.pub .authors {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 0.15rem 0 0;
+}
+.pub .authors .me { color: var(--ink); font-weight: 550; }
+
+.pub .meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+  font-size: 0.78rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.13rem 0.6rem;
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--chip-ink);
+  font-weight: 550;
+  letter-spacing: 0.01em;
+}
+.chip.award { background: var(--award-bg); color: var(--award-ink); }
+.chip.media { background: var(--accent-soft); color: var(--accent); }
+
+a.plink {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--muted);
+  font-weight: 500;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+a.plink:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.pub .note {
+  color: var(--faint);
+  font-size: 0.85rem;
+  margin: 0.35rem 0 0;
+}
+
+/* ---------- news ---------- */
+
+.news { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+
+.news li {
+  display: flex;
+  gap: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.news .date {
+  flex: 0 0 6.6rem;
+  color: var(--faint);
+  font-size: 0.88rem;
+  padding-top: 0.1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.news .what { flex: 1; }
+
+/* ---------- generic row list (awards, datasets) ---------- */
+
+.rows { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+
+.rows li {
+  display: flex;
+  gap: 1.2rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.rows li:last-child { border-bottom: none; }
+
+.rows .date {
+  flex: 0 0 6.6rem;
+  color: var(--faint);
+  font-size: 0.88rem;
+  padding-top: 0.1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.rows .what { flex: 1; }
+
+.rows .hl { color: var(--award-ink); font-weight: 550; }
+
+/* ---------- talks ---------- */
+
+.talklist { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.talklist li {
+  padding: 0.45rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px dashed var(--line);
+}
+.talklist li:last-child { border-bottom: none; }
+.talklist .when {
+  color: var(--faint);
+  font-size: 0.88rem;
+  white-space: nowrap;
+  padding-top: 0.1rem;
+}
+
+/* ---------- code / bibtex ---------- */
+
+pre {
+  background: #fafafa;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+code { font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace; }
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+}
+.site-footer .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1.4rem 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  flex-wrap: wrap;
+  color: var(--faint);
+  font-size: 0.85rem;
+}
+.site-footer a { color: var(--muted); }
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 560px) {
+  .hero { gap: 1.4rem; margin-top: 2.25rem; }
+  .hero img { width: 108px; height: 108px; border-radius: 14px; }
+  h1 { font-size: 1.6rem; }
+  .news li, .rows li { flex-direction: column; gap: 0.05rem; }
+  .news .date, .rows .date { flex: none; }
+  .talklist li { flex-direction: column; gap: 0.05rem; }
+}

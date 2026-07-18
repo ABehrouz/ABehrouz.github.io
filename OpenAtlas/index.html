@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpenAtlas</title>
+  <meta name="description" content="OpenAtlas — a research project." />
+  <!-- progressive enhancement: only hide-then-reveal when JS is available -->
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #0b0d17;
+      --bg-soft: #11142130;
+      --ink: #0b0d17;
+      --paper: #f7f8fc;
+      --muted: #6b7280;
+      --line: #e6e8f0;
+      --brand: #6d5efc;
+      --brand-2: #22d3ee;
+      --accent: #ff7a59;
+      --radius: 18px;
+      --maxw: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, .brand {
+      font-family: "Space Grotesk", sans-serif;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- Nav ---------- */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 50;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      background: rgba(11, 13, 23, 0.55);
+      backdrop-filter: saturate(180%) blur(14px);
+      -webkit-backdrop-filter: saturate(180%) blur(14px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    nav .brand {
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    nav .brand .dot {
+      width: 12px; height: 12px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      box-shadow: 0 0 18px 2px rgba(109, 94, 252, 0.7);
+    }
+    nav .links { display: flex; gap: 26px; }
+    nav .links a {
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    nav .links a:hover { color: #fff; }
+    @media (max-width: 640px) { nav .links { display: none; } }
+
+    /* ---------- Hero ---------- */
+    header.hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      background: var(--bg);
+      overflow: hidden;
+    }
+    .hero .mesh {
+      position: absolute;
+      inset: -20%;
+      background:
+        radial-gradient(38% 44% at 22% 28%, rgba(109, 94, 252, 0.55), transparent 60%),
+        radial-gradient(34% 40% at 80% 30%, rgba(34, 211, 238, 0.45), transparent 60%),
+        radial-gradient(46% 50% at 60% 82%, rgba(255, 122, 89, 0.40), transparent 62%);
+      filter: blur(20px);
+      animation: drift 18s ease-in-out infinite alternate;
+    }
+    @keyframes drift {
+      0%   { transform: translate3d(0, 0, 0) scale(1); }
+      50%  { transform: translate3d(2%, -2%, 0) scale(1.06); }
+      100% { transform: translate3d(-2%, 2%, 0) scale(1.02); }
+    }
+    /* subtle atlas / grid motif */
+    .hero .grid-lines {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+      background-size: 54px 54px;
+      mask-image: radial-gradient(circle at 50% 45%, #000 30%, transparent 78%);
+      -webkit-mask-image: radial-gradient(circle at 50% 45%, #000 30%, transparent 78%);
+    }
+    .hero-inner { position: relative; z-index: 2; padding: 120px 24px; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.7);
+      padding: 8px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      margin-bottom: 28px;
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .hero h1 {
+      font-size: clamp(52px, 11vw, 132px);
+      font-weight: 700;
+      margin: 0 0 18px;
+      background: linear-gradient(180deg, #fff 30%, #b9b6ff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero .tagline {
+      font-size: clamp(17px, 2.4vw, 22px);
+      color: rgba(255, 255, 255, 0.82);
+      max-width: 620px;
+      margin: 0 auto 40px;
+    }
+    .cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 15px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: #fff;
+      box-shadow: 0 10px 30px -8px rgba(109, 94, 252, 0.7);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 38px -8px rgba(109, 94, 252, 0.85); }
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.06);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .btn-ghost:hover { transform: translateY(-2px); background: rgba(255, 255, 255, 0.12); }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 26px; left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      animation: bob 2.4s ease-in-out infinite;
+    }
+    @keyframes bob { 0%,100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
+
+    /* ---------- Sections ---------- */
+    section { padding: 96px 0; }
+    .section-tag {
+      font-size: 13px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--brand);
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+    h2 { font-size: clamp(28px, 4vw, 40px); margin: 0 0 20px; }
+    .lead { font-size: 18px; color: #384152; max-width: 720px; }
+
+    .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .js .reveal.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .js .reveal { opacity: 1; transform: none; transition: none; }
+    }
+
+    /* Highlights grid */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 46px;
+    }
+    @media (max-width: 860px) { .cards { grid-template-columns: 1fr; } }
+    .card {
+      background: #fff;
+      color: var(--ink);
+      text-align: left;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 30px 26px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 22px 46px -22px rgba(15, 23, 42, 0.28);
+      border-color: transparent;
+    }
+    .card .ic {
+      width: 46px; height: 46px;
+      display: grid; place-items: center;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(109,94,252,0.14), rgba(34,211,238,0.14));
+      margin-bottom: 18px;
+      font-size: 22px;
+    }
+    .card h3 { font-size: 19px; margin: 0 0 8px; }
+    .card p { margin: 0; color: var(--muted); font-size: 15px; }
+
+    /* Alt section */
+    .alt { background: #0f1222; color: #fff; }
+    .alt .lead { color: rgba(255, 255, 255, 0.72); }
+    .alt h2 { color: #fff; }
+
+    /* Citation */
+    .cite {
+      background: #0b0d17;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-top: 26px;
+      overflow-x: auto;
+    }
+    .cite pre {
+      margin: 0;
+      font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace;
+      font-size: 13.5px;
+      color: #c9d1e6;
+      line-height: 1.7;
+    }
+    .copy-btn {
+      float: right;
+      font-size: 12px;
+      color: var(--brand-2);
+      cursor: pointer;
+      border: 1px solid rgba(34,211,238,0.4);
+      background: transparent;
+      border-radius: 8px;
+      padding: 5px 12px;
+      font-family: inherit;
+    }
+    .copy-btn:hover { background: rgba(34,211,238,0.12); }
+
+    /* Footer */
+    footer {
+      background: var(--bg);
+      color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      padding: 40px 24px;
+      font-size: 14px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    footer .brand { color: #fff; font-size: 18px; margin-bottom: 8px; display: inline-block; }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#top" class="brand"><span class="dot"></span>OpenAtlas</a>
+    <div class="links">
+      <a href="#overview">Overview</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#citation">Citation</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="mesh"></div>
+    <div class="grid-lines"></div>
+    <div class="hero-inner">
+      <span class="eyebrow">Research Project</span>
+      <h1>OpenAtlas</h1>
+      <p class="tagline">A one-line description of the project goes here — the map for exploring your big idea.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#">📄 Paper</a>
+        <a class="btn btn-ghost" href="#">&lt;/&gt; Code</a>
+        <a class="btn btn-ghost" href="#">◈ Data</a>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll to explore</div>
+  </header>
+
+  <!-- Overview -->
+  <section id="overview" class="wrap reveal">
+    <div class="section-tag">Overview</div>
+    <h2>What is OpenAtlas?</h2>
+    <p class="lead">
+      Replace this paragraph with a short, compelling summary of your research project — the
+      problem you tackle, the core idea behind your approach, and why it matters. Aim for two or
+      three sentences that a broad audience can follow at a glance.
+    </p>
+  </section>
+
+  <!-- Highlights -->
+  <section id="highlights" class="alt">
+    <div class="wrap reveal">
+      <div class="section-tag" style="color: var(--brand-2)">Highlights</div>
+      <h2>Key contributions</h2>
+      <p class="lead">A few sentences describing what makes this work stand out.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="ic">🗺️</div>
+          <h3>Contribution one</h3>
+          <p>Describe the first key idea, method, or result of your project here.</p>
+        </div>
+        <div class="card">
+          <div class="ic">⚡</div>
+          <h3>Contribution two</h3>
+          <p>Highlight a second strength — efficiency, scalability, accuracy, or novelty.</p>
+        </div>
+        <div class="card">
+          <div class="ic">🔭</div>
+          <h3>Contribution three</h3>
+          <p>Round out the story with a third takeaway readers should remember.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Citation -->
+  <section id="citation" class="wrap reveal">
+    <div class="section-tag">Citation</div>
+    <h2>Cite this work</h2>
+    <p class="lead">If you find OpenAtlas useful, please consider citing:</p>
+    <div class="cite">
+      <button class="copy-btn" onclick="copyCite(this)">Copy</button>
+      <pre id="bibtex">@article{openatlas,
+  title   = {OpenAtlas: TODO},
+  author  = {TODO},
+  journal = {TODO},
+  year    = {TODO}
+}</pre>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#top" class="brand">OpenAtlas</a>
+    <p>© <span id="yr"></span> OpenAtlas. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("in"); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+    // Copy BibTeX
+    function copyCite(btn) {
+      const text = document.getElementById("bibtex").innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const old = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => (btn.textContent = old), 1600);
+      });
+    }
+
+    // Year
+    document.getElementById("yr").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
